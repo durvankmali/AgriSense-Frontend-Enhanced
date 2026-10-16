@@ -6,6 +6,26 @@ The project combines a fine-tuned ResNet-18 classifier, a lightweight U-Net segm
 
 ## Project Overview
 
+## 🎥 Application Demo
+
+Watch AgriSense in action, including crop disease
+classification, confidence scores, disease-region
+segmentation, and explainability visualizations.
+
+### Full Application Walkthrough
+
+https://github.com/durvankmali/AgriSense-Frontend-Enhanced/blob/main/Demo/Agrisense_Demo_Video.mp4
+
+## Application Screenshots
+
+### Application Homepage 
+![AgriSense Homepage](Demo/images/homepage.png)
+
+
+## Disease Prediction | Grad-CAM | Disease Segmentation |   Visualization
+![Disease Prediction](Demo/images/disease_prediction.png)
+
+
 ### Problem
 
 Plant disease identification from images is challenging because real-world images can contain different resolutions, aspect ratios, backgrounds, lighting conditions, plant species, and disease appearances.
