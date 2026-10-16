@@ -1,0 +1,12 @@
+.venv
+.git
+.gitignore
+__pycache__
+*.pyc
+.ipynb_checkpoints
+notebooks
+frontend
+data/raw
+data/processed/*.csv
+!data/processed/agrisense_metadata_clean.csv
+*.log

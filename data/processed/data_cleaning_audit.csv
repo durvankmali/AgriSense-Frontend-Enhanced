@@ -1,0 +1,10 @@
+Metrics,Value
+Original records,7774
+Original unique image contents,7497
+Conflicting image contents removed,98
+Records removed due to conflicting labels,205
+Final cleaned records,7399
+Final unique image contents,7399
+Duplicate records remaining,0
+Images appearing in multiple splits,0
+Missing values,0

@@ -1,0 +1,812 @@
+image,actual,predicted,confidence,correct
+potato_late_blight_25.jpg,potato late blight,potato late blight,0.6976684927940369,True
+cucumber_powdery_mildew_google_0111.jpg,cucumber powdery mildew,zucchini powdery mildew,0.8150736093521118,False
+peach_brown_rot_Bing_0035.jpg,peach brown rot,peach brown rot,0.9413678646087646,True
+wheat_leaf_rust_Bing_0046.jpg,wheat leaf rust,wheat stem rust,0.29227375984191895,False
+zucchini_downy_mildew_Bing_0003.jpg,zucchini downy mildew,zucchini downy mildew,0.9542756676673889,True
+bean_rust_google_0172.jpg,bean rust,tomato late blight,0.13928577303886414,False
+zucchini_yellow_mosaic_virus_google_0134.jpg,zucchini yellow mosaic virus,celery anthracnose,0.30827754735946655,False
+eggplant_cercospora_leaf_spot_38.jpg,eggplant cercospora leaf spot,soybean rust,0.26772406697273254,False
+citrus_canker_349.jpg,citrus canker,citrus canker,0.9931638836860657,True
+bell_pepper_bacterial_spot_Google_0033.jpg,bell pepper bacterial spot,soybean mosaic,0.27059483528137207,False
+coffee_berry_blotch_Google_0058.jpg,coffee berry blotch,grape black rot,0.3193197548389435,False
+zucchini_bacterial_wilt_Bing_0095.jpg,zucchini bacterial wilt,cucumber angular leaf spot,0.237252876162529,False
+cabbage_alternaria_leaf_spot_google_0114.jpg,cabbage alternaria leaf spot,broccoli alternaria leaf spot,0.7231795787811279,False
+corn_rust_google_0048.jpg,corn rust,corn rust,0.790233850479126,True
+soybean_mosaic_Google_0350.jpg,soybean mosaic,soybean mosaic,0.23609589040279388,True
+garlic_rust_73.jpg,garlic rust,garlic leaf blight,0.7539016008377075,False
+soybean_mosaic_Baidu_0164.jpg,soybean mosaic,soybean mosaic,0.25792670249938965,True
+citrus_canker_186.jpg,citrus canker,citrus canker,0.9901188611984253,True
+corn_gray_leaf_spot_13.jpg,corn gray leaf spot,corn gray leaf spot,0.654009997844696,True
+peach_leaf_curl_google_0036.jpg,peach leaf curl,peach leaf curl,0.8756317496299744,True
+ginger_sheath_blight_79.jpg,ginger sheath blight,rice sheath blight,0.9863824844360352,False
+bell_pepper_blossom_end_rot_Bing_0005.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.9996685981750488,True
+wheat_head_scab_Bing_0004.jpg,wheat head scab,wheat septoria blotch,0.2649546265602112,False
+apple_rust_55.jpg,apple rust,apple rust,0.7759186029434204,True
+citrus_canker_google_0000.jpg,citrus canker,citrus canker,0.9999377727508545,True
+banana_bunchy_top_Bing_0226.jpg,banana bunchy top,citrus greening disease,0.3819229006767273,False
+grapevine_leafroll_disease_41.jpg,grapevine leafroll disease,soybean mosaic,0.412960946559906,False
+bean_mosaic_virus_google_0149.jpg,bean mosaic virus,soybean mosaic,0.9876378774642944,False
+corn_smut_google_0207.jpg,corn smut,corn smut,0.9508647918701172,True
+tomato_leaf_mold_34.jpg,tomato leaf mold,cabbage black rot,0.3529047966003418,False
+soybean_bacterial_blight_Bing_0047.jpg,soybean bacterial blight,soybean bacterial blight,0.9110730886459351,True
+zucchini_powdery_mildew_Google_0069.jpg,zucchini powdery mildew,squash powdery mildew,0.6957525610923767,False
+tomato_leaf_mold_28.jpg,tomato leaf mold,tomato leaf mold,0.4419345557689667,True
+wheat_powdery_mildew_Bing_0193.jpg,wheat powdery mildew,wheat leaf rust,0.5766942501068115,False
+tomato_late_blight_google_0100.jpg,tomato late blight,tomato late blight,0.8769571185112,True
+corn_gray_leaf_spot_google_0060.jpg,corn gray leaf spot,wheat stem rust,0.18904151022434235,False
+peach_leaf_curl_14.jpg,peach leaf curl,peach leaf curl,0.37372884154319763,True
+banana_cordana_leaf_spot_Bing_0031.jpg,banana cordana leaf spot,banana cordana leaf spot,0.21104800701141357,True
+cucumber_angular_leaf_spot_68.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.9751987457275391,True
+wheat_stripe_rust_Baidu_0240.jpg,wheat stripe rust,wheat stripe rust,0.9330029487609863,True
+wheat_septoria_blotch_Google_0287.jpg,wheat septoria blotch,wheat stripe rust,0.5170996785163879,False
+tobacco_brown_spot_Google_0075.jpg,tobacco brown spot,tobacco brown spot,0.2661115825176239,True
+wheat_powdery_mildew_Bing_0004.jpg,wheat powdery mildew,wheat powdery mildew,0.4051830768585205,True
+tomato_early_blight_89.jpg,tomato early blight,tomato early blight,0.39466598629951477,True
+bell_pepper_blossom_end_rot_Bing_0127.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.6927880644798279,True
+corn_smut_google_0000.jpg,corn smut,corn smut,0.9999388456344604,True
+soybean_rust_Bing_0099.jpg,soybean rust,bean rust,0.19000765681266785,False
+tomato_yellow_leaf_curl_virus_google_0007.jpg,tomato yellow leaf curl virus,tomato yellow leaf curl virus,0.9924236536026001,True
+tomato_early_blight_177.jpg,tomato early blight,tomato leaf mold,0.7596445083618164,False
+zucchini_powdery_mildew_Bing_0001.jpg,zucchini powdery mildew,zucchini powdery mildew,0.6128056049346924,True
+corn_rust_google_0224.jpg,corn rust,corn rust,0.726692795753479,True
+ginger_sheath_blight_28.jpg,ginger sheath blight,ginger sheath blight,0.7586653828620911,True
+wheat_stripe_rust_Bing_0008.jpg,wheat stripe rust,wheat septoria blotch,0.4273354113101959,False
+broccoli_downy_mildew_google_0034.jpg,broccoli downy mildew,tomato leaf mold,0.4634493887424469,False
+carrot_cavity_spot_google_0247.jpg,carrot cavity spot,carrot cavity spot,0.879834771156311,True
+bean_halo_blight_google_0157.jpg,bean halo blight,soybean brown spot,0.6604964137077332,False
+tomato_early_blight_google_0383.jpg,tomato early blight,bell pepper blossom end rot,0.4099310338497162,False
+lettuce_downy_mildew_175.jpg,lettuce downy mildew,lettuce downy mildew,0.8486135005950928,True
+grape_downy_mildew_google_0231.jpg,grape downy mildew,grape downy mildew,0.9918475151062012,True
+wheat_stripe_rust_Bing_0082.jpg,wheat stripe rust,wheat stripe rust,0.9960339665412903,True
+wheat_head_scab_Baidu_0100.jpg,wheat head scab,wheat head scab,0.9990956783294678,True
+peach_leaf_curl_google_0236.jpg,peach leaf curl,basil downy mildew,0.3181760311126709,False
+tomato_late_blight_google_0124.jpg,tomato late blight,tomato late blight,0.9794613122940063,True
+wheat_loose_smut_Bing_0011.jpg,wheat loose smut,wheat loose smut,0.535290002822876,True
+apple_scab_google_0029.jpg,apple scab,apple scab,0.5703328251838684,True
+zucchini_bacterial_wilt_Bing_0016.jpg,zucchini bacterial wilt,cucumber bacterial wilt,0.8322105407714844,False
+soybean_rust_Bing_0146.jpg,soybean rust,soybean downy mildew,0.9269355535507202,False
+wheat_loose_smut_Bing_0071.jpg,wheat loose smut,wheat loose smut,0.9939408302307129,True
+squash_powdery_mildew_google_0002.jpg,squash powdery mildew,cucumber powdery mildew,0.7134900689125061,False
+wheat_powdery_mildew_Baidu_0017.jpg,wheat powdery mildew,wheat powdery mildew,0.9915653467178345,True
+apple_scab_google_0196.jpg,apple scab,apple scab,0.7091155648231506,True
+wheat_powdery_mildew_Baidu_0188.jpg,wheat powdery mildew,garlic leaf blight,0.21791362762451172,False
+corn_gray_leaf_spot_google_0209.jpg,corn gray leaf spot,corn northern leaf blight,0.4997507333755493,False
+peach_scab_Bing_0020.jpg,peach scab,peach scab,0.9499931931495667,True
+eggplant_phytophthora_blight_Bing_0005.jpg,eggplant phytophthora blight,eggplant phomopsis fruit rot,0.9775950312614441,False
+grape_downy_mildew_162.jpg,grape downy mildew,grape downy mildew,0.9902220964431763,True
+rice_sheath_blight_68.jpg,rice sheath blight,rice sheath blight,0.6486814022064209,True
+basil_downy_mildew_google_0143.jpg,basil downy mildew,basil downy mildew,0.26069921255111694,True
+soybean_frog_eye_leaf_spot_Google_0135.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.38533785939216614,True
+carrot_alternaria_leaf_blight_Bing_0000.jpg,carrot alternaria leaf blight,carrot alternaria leaf blight,0.9979968667030334,True
+maple_tar_spot_google_0072.jpg,maple tar spot,maple tar spot,0.998902440071106,True
+bell_pepper_blossom_end_rot_Bing_0097.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.3401135504245758,True
+wheat_stripe_rust_Baidu_0192.jpg,wheat stripe rust,wheat stripe rust,0.8746299147605896,True
+rice_sheath_blight_38.jpg,rice sheath blight,wheat stem rust,0.15152089297771454,False
+peach_leaf_curl_google_0049.jpg,peach leaf curl,peach leaf curl,0.972217857837677,True
+potato_late_blight_google_0029.jpg,potato late blight,potato early blight,0.7457085847854614,False
+potato_late_blight_39.jpg,potato late blight,potato late blight,0.9522048830986023,True
+garlic_rust_91.jpg,garlic rust,wheat stripe rust,0.7071398496627808,False
+rice_blast_54.jpg,rice blast,rice blast,0.9730799794197083,True
+wheat_stripe_rust_Baidu_0396.jpg,wheat stripe rust,wheat stripe rust,0.9971957206726074,True
+cucumber_bacterial_wilt_google_0039.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.9328906536102295,True
+wheat_leaf_rust_Baidu_0007.jpg,wheat leaf rust,corn rust,0.506243884563446,False
+grape_black_rot_google_0009.jpg,grape black rot,grape black rot,0.8083841800689697,True
+lettuce_downy_mildew_google_0058.jpg,lettuce downy mildew,lettuce downy mildew,0.3723174035549164,True
+cabbage_alternaria_leaf_spot_google_0051.jpg,cabbage alternaria leaf spot,cherry leaf spot,0.40871062874794006,False
+raspberry_fire_blight_Bing_0017.jpg,raspberry fire blight,corn smut,0.6908146739006042,False
+soybean_mosaic_Bing_0082.jpg,soybean mosaic,soybean mosaic,0.887300968170166,True
+blueberry_botrytis_blight_Bing_0018.jpg,blueberry botrytis blight,blueberry botrytis blight,0.9946357607841492,True
+bell_pepper_bacterial_spot_Bing_0027.jpg,bell pepper bacterial spot,bell pepper bacterial spot,0.7702284455299377,True
+citrus_canker_59.jpg,citrus canker,citrus canker,0.9863016605377197,True
+banana_cigar_end_rot_Bing_0182.jpg,banana cigar end rot,citrus canker,0.6073762774467468,False
+eggplant_phomopsis_fruit_rot_Bing_0004.jpg,eggplant phomopsis fruit rot,eggplant phomopsis fruit rot,0.9909883141517639,True
+cucumber_bacterial_wilt_26.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.2400766909122467,True
+banana_bunchy_top_Bing_0242.jpg,banana bunchy top,banana bunchy top,0.622721791267395,True
+citrus_greening_disease_4.jpg,citrus greening disease,citrus greening disease,0.9344774484634399,True
+apple_scab_google_0053.jpg,apple scab,peach brown rot,0.3121209442615509,False
+peach_scab_Bing_0050.jpg,peach scab,peach scab,0.9389639496803284,True
+wheat_septoria_blotch_Google_0338.jpg,wheat septoria blotch,wheat septoria blotch,0.506151020526886,True
+bean_mosaic_virus_google_0107.jpg,bean mosaic virus,potato late blight,0.37784960865974426,False
+peach_brown_rot_Bing_0072.jpg,peach brown rot,peach brown rot,0.9908395409584045,True
+tomato_septoria_leaf_spot_google_0029.jpg,tomato septoria leaf spot,cherry leaf spot,0.25122031569480896,False
+citrus_canker_google_0024.jpg,citrus canker,citrus canker,0.9996176958084106,True
+wheat_septoria_blotch_blotch (20).jpg,wheat septoria blotch,wheat septoria blotch,0.9835312366485596,True
+apple_rust_84.jpg,apple rust,apple rust,0.14071330428123474,True
+wheat_loose_smut_Google_0013.jpg,wheat loose smut,wheat bacterial leaf streak (black chaff),0.6794731616973877,False
+wheat_loose_smut_Baidu_0007.jpg,wheat loose smut,wheat loose smut,0.570107102394104,True
+apple_black_rot_google_0056.jpg,apple black rot,plum pocket disease,0.26724913716316223,False
+garlic_leaf_blight_google_0222.jpg,garlic leaf blight,wheat septoria blotch,0.9251837730407715,False
+cherry_leaf_spot_google_0060.jpg,cherry leaf spot,cherry leaf spot,0.6686347126960754,True
+zucchini_powdery_mildew_Google_0192.jpg,zucchini powdery mildew,zucchini powdery mildew,0.6686331033706665,True
+peach_anthracnose_Bing_0004.jpg,peach anthracnose,peach brown rot,0.9183748960494995,False
+citrus_canker_216.jpg,citrus canker,citrus canker,0.9979362487792969,True
+soybean_mosaic_Baidu_0046.jpg,soybean mosaic,soybean mosaic,0.297954261302948,True
+corn_northern_leaf_blight_82.jpg,corn northern leaf blight,corn northern leaf blight,0.9445738196372986,True
+strawberry_leaf_scorch_google_0015.jpg,strawberry leaf scorch,strawberry leaf scorch,0.20344547927379608,True
+grapevine_leafroll_disease_2.jpg,grapevine leafroll disease,citrus canker,0.29392915964126587,False
+squash_powdery_mildew_33.jpg,squash powdery mildew,squash powdery mildew,0.7671014070510864,True
+raspberry_leaf_spot_Bing_0002.jpg,raspberry leaf spot,potato late blight,0.10433105379343033,False
+tomato_septoria_leaf_spot_google_0003.jpg,tomato septoria leaf spot,potato early blight,0.29035887122154236,False
+wheat_head_scab_Bing_0016.jpg,wheat head scab,wheat head scab,0.8807093501091003,True
+wheat_loose_smut_Baidu_0013.jpg,wheat loose smut,wheat head scab,0.7110894918441772,False
+wheat_stripe_rust_Bing_0063.jpg,wheat stripe rust,wheat stripe rust,0.9584404230117798,True
+potato_early_blight_9.jpg,potato early blight,soybean mosaic,0.28120771050453186,False
+tobacco_mosaic_virus_128.jpg,tobacco mosaic virus,soybean mosaic,0.7922045588493347,False
+cucumber_angular_leaf_spot_271.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.9865952730178833,True
+tomato_bacterial_leaf_spot_177.jpg,tomato bacterial leaf spot,tomato bacterial leaf spot,0.8452492952346802,True
+zucchini_powdery_mildew_Google_0080.jpg,zucchini powdery mildew,squash powdery mildew,0.961968183517456,False
+broccoli_ring_spot_Bing_0003.jpg,broccoli ring spot,cauliflower alternaria leaf spot,0.6018478870391846,False
+apple_rust_68.jpg,apple rust,apple scab,0.48463502526283264,False
+peach_brown_rot_Bing_0036.jpg,peach brown rot,peach brown rot,0.5342972278594971,True
+wheat_powdery_mildew_Baidu_0022.jpg,wheat powdery mildew,wheat powdery mildew,0.9055817127227783,True
+grape_downy_mildew_194.jpg,grape downy mildew,grape downy mildew,0.9851862788200378,True
+tomato_late_blight_104.jpg,tomato late blight,tomato late blight,0.28584200143814087,True
+cabbage_black_rot_Bing_0076.jpg,cabbage black rot,cabbage black rot,0.985334038734436,True
+wheat_loose_smut_Bing_0018.jpg,wheat loose smut,wheat loose smut,0.9994599223136902,True
+tomato_early_blight_28.jpg,tomato early blight,tomato early blight,0.8944875597953796,True
+garlic_leaf_blight_google_0040.jpg,garlic leaf blight,garlic rust,0.08049402385950089,False
+citrus_canker_434.jpg,citrus canker,citrus canker,0.8253047466278076,True
+wheat_head_scab_Bing_0095.jpg,wheat head scab,wheat septoria blotch,0.26402556896209717,False
+coffee_leaf_rust_google_0035.jpg,coffee leaf rust,coffee leaf rust,0.9724625945091248,True
+cauliflower_bacterial_soft_rot_Bing_0041.jpg,cauliflower bacterial soft rot,cauliflower bacterial soft rot,0.8100966215133667,True
+citrus_greening_disease_google_0097.jpg,citrus greening disease,citrus greening disease,0.6453170776367188,True
+citrus_canker_45.jpg,citrus canker,citrus canker,0.9981575608253479,True
+garlic_leaf_blight_google_0007.jpg,garlic leaf blight,wheat powdery mildew,0.6493852734565735,False
+tomato_septoria_leaf_spot_google_0175.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.5696011781692505,True
+grape_black_rot_21.jpg,grape black rot,grape black rot,0.2744286358356476,True
+tobacco_brown_spot_Bing_0058.jpg,tobacco brown spot,tobacco brown spot,0.9430983662605286,True
+cabbage_black_rot_Google_0090.jpg,cabbage black rot,cabbage black rot,0.9987605810165405,True
+cucumber_angular_leaf_spot_google_0008.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.542697012424469,True
+apple_mosaic_virus_14.jpg,apple mosaic virus,apple mosaic virus,0.9507930874824524,True
+wheat_leaf_rust_Baidu_0122.jpg,wheat leaf rust,wheat leaf rust,0.8224605917930603,True
+cucumber_powdery_mildew_google_0048.jpg,cucumber powdery mildew,cucumber powdery mildew,0.8880325555801392,True
+bean_rust_176.jpg,bean rust,bean rust,0.9820796251296997,True
+soybean_mosaic_Bing_0226.jpg,soybean mosaic,soybean mosaic,0.9365988969802856,True
+cucumber_powdery_mildew_google_0056.jpg,cucumber powdery mildew,zucchini powdery mildew,0.8540120720863342,False
+garlic_rust_9.jpg,garlic rust,garlic rust,0.5086362957954407,True
+apple_black_rot_google_0016.jpg,apple black rot,peach brown rot,0.8220321536064148,False
+wheat_loose_smut_Bing_0302.jpg,wheat loose smut,wheat loose smut,0.985612690448761,True
+apple_mosaic_virus_google_0075.jpg,apple mosaic virus,apple mosaic virus,0.14499430358409882,True
+carrot_cavity_spot_google_0269.jpg,carrot cavity spot,carrot cavity spot,0.9982166886329651,True
+carrot_alternaria_leaf_blight_Google_0063.jpg,carrot alternaria leaf blight,carrot alternaria leaf blight,0.5104526877403259,True
+carrot_alternaria_leaf_blight_Bing_0005.jpg,carrot alternaria leaf blight,carrot alternaria leaf blight,0.968308687210083,True
+lettuce_downy_mildew_google_0004.jpg,lettuce downy mildew,zucchini powdery mildew,0.42396220564842224,False
+wheat_stripe_rust_Bing_0054.jpg,wheat stripe rust,wheat head scab,0.32966184616088867,False
+citrus_canker_377.jpg,citrus canker,citrus canker,0.9332317113876343,True
+tomato_bacterial_leaf_spot_3.jpg,tomato bacterial leaf spot,apple mosaic virus,0.23815637826919556,False
+apple_scab_45.jpg,apple scab,apple scab,0.40790602564811707,True
+cherry_leaf_spot_38.jpg,cherry leaf spot,apple scab,0.3233035206794739,False
+wheat_stripe_rust_Baidu_0005.jpg,wheat stripe rust,wheat stripe rust,0.9949080348014832,True
+corn_rust_65.jpg,corn rust,garlic rust,0.2729070484638214,False
+wheat_stripe_rust_Baidu_0204.jpg,wheat stripe rust,wheat stripe rust,0.9854063987731934,True
+garlic_leaf_blight_27.jpg,garlic leaf blight,garlic leaf blight,0.7405731678009033,True
+potato_late_blight_google_0068.jpg,potato late blight,peach leaf curl,0.27147334814071655,False
+zucchini_yellow_mosaic_virus_google_0078.jpg,zucchini yellow mosaic virus,raspberry fire blight,0.06828395277261734,False
+bell_pepper_bacterial_spot_Bing_0063.jpg,bell pepper bacterial spot,bell pepper bacterial spot,0.5340006947517395,True
+grape_black_rot_google_0075.jpg,grape black rot,grape black rot,0.16503190994262695,True
+peach_brown_rot_Bing_0170.jpg,peach brown rot,plum brown rot,0.46374714374542236,False
+bean_halo_blight_google_0021.jpg,bean halo blight,bean halo blight,0.3958878219127655,True
+tomato_early_blight_google_0160.jpg,tomato early blight,tomato early blight,0.5423381924629211,True
+cabbage_downy_mildew_Google_0165.jpg,cabbage downy mildew,tobacco mosaic virus,0.6199055910110474,False
+wheat_bacterial_leaf_streak_(black_chaff)_google_black_chaff (6).jpg,wheat bacterial leaf streak (black chaff),wheat bacterial leaf streak (black chaff),0.9224733114242554,True
+peach_anthracnose_Bing_0000.jpg,peach anthracnose,peach brown rot,0.7609269618988037,False
+cherry_leaf_spot_44.jpg,cherry leaf spot,cherry leaf spot,0.4973054528236389,True
+wheat_leaf_rust_Bing_0025.jpg,wheat leaf rust,wheat leaf rust,0.6902374625205994,True
+wheat_head_scab_Google_0266.jpg,wheat head scab,wheat head scab,0.8611720204353333,True
+raspberry_yellow_rust_Bing_0004.jpg,raspberry yellow rust,soybean mosaic,0.7434772849082947,False
+bell_pepper_frogeye_leaf_spot_Bing_0215.jpg,bell pepper frogeye leaf spot,blueberry scorch,0.19302430748939514,False
+potato_early_blight_google_0006.jpg,potato early blight,potato early blight,0.24213412404060364,True
+wheat_septoria_blotch_Baidu_0124.jpg,wheat septoria blotch,wheat stripe rust,0.9550794363021851,False
+citrus_canker_78.jpg,citrus canker,citrus canker,0.9990099668502808,True
+tomato_leaf_mold_google_0246.jpg,tomato leaf mold,basil downy mildew,0.22242465615272522,False
+apple_scab_google_0253.jpg,apple scab,apple scab,0.5319763422012329,True
+wheat_powdery_mildew_Baidu_0042.jpg,wheat powdery mildew,wheat powdery mildew,0.7726708054542542,True
+cherry_leaf_spot_google_0285.jpg,cherry leaf spot,cherry leaf spot,0.41046208143234253,True
+grape_downy_mildew_google_0115.jpg,grape downy mildew,grape downy mildew,0.5807021260261536,True
+eggplant_phomopsis_fruit_rot_Google_0036.jpg,eggplant phomopsis fruit rot,wheat loose smut,0.1212099939584732,False
+maple_tar_spot_google_0091.jpg,maple tar spot,maple tar spot,0.18777556717395782,True
+grape_leaf_spot_167.jpg,grape leaf spot,grape leaf spot,0.9367961883544922,True
+zucchini_bacterial_wilt_Bing_0057.jpg,zucchini bacterial wilt,cucumber bacterial wilt,0.5306736826896667,False
+wheat_stripe_rust_Bing_0037.jpg,wheat stripe rust,wheat stripe rust,0.8430449962615967,True
+blueberry_rust_9.jpg,blueberry rust,potato late blight,0.12084849178791046,False
+tomato_late_blight_33.jpg,tomato late blight,tomato late blight,0.8575215935707092,True
+coffee_brown_eye_spot_Bing_0003.jpg,coffee brown eye spot,apple rust,0.23440472781658173,False
+grape_downy_mildew_266.jpg,grape downy mildew,grape downy mildew,0.9966680407524109,True
+wheat_powdery_mildew_Google_0090.jpg,wheat powdery mildew,wheat powdery mildew,0.35073959827423096,True
+zucchini_powdery_mildew_Bing_0074.jpg,zucchini powdery mildew,squash powdery mildew,0.7794085144996643,False
+coffee_leaf_rust_9.jpg,coffee leaf rust,soybean mosaic,0.19350750744342804,False
+peach_brown_rot_Bing_0234.jpg,peach brown rot,plum brown rot,0.7718785405158997,False
+banana_bunchy_top_Baidu_0003.jpg,banana bunchy top,banana bunchy top,0.983974039554596,True
+corn_northern_leaf_blight_78.jpg,corn northern leaf blight,corn northern leaf blight,0.6625761985778809,True
+soybean_downy_mildew_Google_0044.jpg,soybean downy mildew,citrus canker,0.28919464349746704,False
+cucumber_powdery_mildew_133.jpg,cucumber powdery mildew,cucumber powdery mildew,0.9946454763412476,True
+citrus_canker_google_0259.jpg,citrus canker,citrus canker,0.9761859774589539,True
+coffee_leaf_rust_google_0286.jpg,coffee leaf rust,coffee leaf rust,0.9524677395820618,True
+tomato_mosaic_virus_google_0204.jpg,tomato mosaic virus,soybean mosaic,0.4803939163684845,False
+wheat_bacterial_leaf_streak_(black_chaff)_google_black_chaff (10).jpg,wheat bacterial leaf streak (black chaff),garlic rust,0.3547188937664032,False
+cabbage_alternaria_leaf_spot_google_0068.jpg,cabbage alternaria leaf spot,bean rust,0.2953217029571533,False
+blueberry_rust_google_0099.jpg,blueberry rust,grape black rot,0.19406843185424805,False
+basil_downy_mildew_google_0021.jpg,basil downy mildew,basil downy mildew,0.08870787918567657,True
+squash_powdery_mildew_google_0155.jpg,squash powdery mildew,zucchini powdery mildew,0.7345969080924988,False
+citrus_canker_37.jpg,citrus canker,citrus canker,0.9997909665107727,True
+apple_scab_google_0219.jpg,apple scab,apple scab,0.9689704775810242,True
+wheat_septoria_blotch_blotch (91).jpg,wheat septoria blotch,garlic rust,0.28056707978248596,False
+celery_early_blight_google_0003.jpg,celery early blight,cucumber powdery mildew,0.17341329157352448,False
+plum_rust_Bing_0012.jpg,plum rust,grape leaf spot,0.485668420791626,False
+wheat_stripe_rust_Bing_0290.jpg,wheat stripe rust,wheat septoria blotch,0.3179152011871338,False
+tobacco_brown_spot_Bing_0039.jpg,tobacco brown spot,tobacco brown spot,0.9868618249893188,True
+peach_leaf_curl_google_0002.jpg,peach leaf curl,peach leaf curl,0.6674588322639465,True
+grape_black_rot_141.jpg,grape black rot,plum pox virus,0.5577646493911743,False
+wheat_loose_smut_Baidu_0021.jpg,wheat loose smut,wheat loose smut,0.8182495832443237,True
+blueberry_botrytis_blight_Bing_0025.jpg,blueberry botrytis blight,blueberry scorch,0.3897327184677124,False
+corn_smut_google_0006.jpg,corn smut,corn smut,0.9733022451400757,True
+citrus_canker_151.jpg,citrus canker,citrus canker,0.8611070513725281,True
+cucumber_angular_leaf_spot_230.jpg,cucumber angular leaf spot,lettuce downy mildew,0.40560466051101685,False
+blueberry_anthracnose_Bing_0052.jpg,blueberry anthracnose,blueberry anthracnose,0.9581688046455383,True
+wheat_bacterial_leaf_streak_(black_chaff)_Bing_0024.jpg,wheat bacterial leaf streak (black chaff),wheat septoria blotch,0.6806597113609314,False
+bean_halo_blight_google_0007.jpg,bean halo blight,coffee leaf rust,0.4868907630443573,False
+wheat_loose_smut_Bing_0043.jpg,wheat loose smut,wheat loose smut,0.8989248871803284,True
+soybean_rust_Baidu_0022.jpg,soybean rust,bean rust,0.40003302693367004,False
+potato_early_blight_google_0345.jpg,potato early blight,potato early blight,0.9925456643104553,True
+cabbage_downy_mildew_Bing_0120.jpg,cabbage downy mildew,soybean bacterial blight,0.24149452149868011,False
+peach_scab_Bing_0107.jpg,peach scab,peach scab,0.2816982865333557,True
+tobacco_brown_spot_Google_0040.jpg,tobacco brown spot,tomato early blight,0.9602188467979431,False
+strawberry_anthracnose_google_0074.jpg,strawberry anthracnose,strawberry anthracnose,0.9084594249725342,True
+potato_late_blight_20.jpg,potato late blight,potato late blight,0.7073159217834473,True
+corn_rust_3.jpg,corn rust,corn northern leaf blight,0.36433663964271545,False
+coffee_berry_blotch_Bing_0026.jpg,coffee berry blotch,coffee berry blotch,0.9877538084983826,True
+blueberry_anthracnose_Bing_0115.jpg,blueberry anthracnose,blueberry mummy berry,0.21559379994869232,False
+cauliflower_bacterial_soft_rot_Bing_0091.jpg,cauliflower bacterial soft rot,cauliflower bacterial soft rot,0.8051419258117676,True
+cucumber_powdery_mildew_137.jpg,cucumber powdery mildew,cucumber powdery mildew,0.6800397634506226,True
+tomato_late_blight_google_0140.jpg,tomato late blight,tomato late blight,0.09495416283607483,True
+corn_smut_google_0029.jpg,corn smut,corn smut,0.9917591214179993,True
+bean_rust_google_0039.jpg,bean rust,garlic rust,0.46497219800949097,False
+coffee_leaf_rust_google_0155.jpg,coffee leaf rust,coffee leaf rust,0.18935075402259827,True
+wheat_powdery_mildew_Bing_0173.jpg,wheat powdery mildew,corn rust,0.6810526847839355,False
+wheat_stripe_rust_Baidu_0438.jpg,wheat stripe rust,wheat stripe rust,0.6193138360977173,True
+citrus_canker_112.jpg,citrus canker,citrus canker,0.9987205862998962,True
+citrus_greening_disease_35.jpg,citrus greening disease,citrus greening disease,0.9976289868354797,True
+citrus_canker_179.jpg,citrus canker,citrus canker,0.9095208644866943,True
+soybean_rust_Bing_0255.jpg,soybean rust,soybean rust,0.6818209290504456,True
+soybean_mosaic_Baidu_0077.jpg,soybean mosaic,soybean mosaic,0.9771038889884949,True
+bell_pepper_blossom_end_rot_Bing_0095.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.726359486579895,True
+cucumber_bacterial_wilt_21.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.9991222023963928,True
+cucumber_bacterial_wilt_google_0000.jpg,cucumber bacterial wilt,zucchini bacterial wilt,0.6946814060211182,False
+tobacco_blue_mold_Bing_0141.jpg,tobacco blue mold,grape downy mildew,0.504244863986969,False
+cherry_powdery_mildew_64.jpg,cherry powdery mildew,apple scab,0.13059979677200317,False
+soybean_downy_mildew_Bing_0015.jpg,soybean downy mildew,soybean downy mildew,0.987125813961029,True
+tomato_leaf_mold_66.jpg,tomato leaf mold,tomato leaf mold,0.9953621029853821,True
+soybean_bacterial_blight_Bing_0106.jpg,soybean bacterial blight,bean rust,0.5428773164749146,False
+cucumber_bacterial_wilt_169.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.17209884524345398,True
+blueberry_scorch_Google_0126.jpg,blueberry scorch,blueberry scorch,0.6524286270141602,True
+soybean_downy_mildew_Bing_0055.jpg,soybean downy mildew,soybean downy mildew,0.7027827501296997,True
+corn_smut_google_0217.jpg,corn smut,corn smut,0.9833853244781494,True
+corn_smut_google_0033.jpg,corn smut,corn smut,0.9982588887214661,True
+peach_leaf_curl_44.jpg,peach leaf curl,peach leaf curl,0.7237386703491211,True
+lettuce_downy_mildew_65.jpg,lettuce downy mildew,corn smut,0.696131706237793,False
+peach_leaf_curl_google_0029.jpg,peach leaf curl,peach leaf curl,0.3624931275844574,True
+cauliflower_alternaria_leaf_spot_170.jpg,cauliflower alternaria leaf spot,cauliflower bacterial soft rot,0.6256524324417114,False
+grape_black_rot_google_0101.jpg,grape black rot,grape black rot,0.38510003685951233,True
+apple_black_rot_28.jpg,apple black rot,grape leaf spot,0.5061764121055603,False
+corn_rust_google_0019.jpg,corn rust,corn rust,0.9916203022003174,True
+peach_brown_rot_Bing_0076.jpg,peach brown rot,peach brown rot,0.9890346527099609,True
+grape_downy_mildew_google_0034.jpg,grape downy mildew,grape downy mildew,0.9544647336006165,True
+zucchini_powdery_mildew_Bing_0019.jpg,zucchini powdery mildew,zucchini powdery mildew,0.3680846095085144,True
+wheat_septoria_blotch_blotch (59).jpg,wheat septoria blotch,wheat septoria blotch,0.5823838114738464,True
+cucumber_powdery_mildew_129.jpg,cucumber powdery mildew,squash powdery mildew,0.5555484890937805,False
+citrus_canker_301.jpg,citrus canker,citrus canker,0.9951131939888,True
+corn_rust_google_0063.jpg,corn rust,soybean rust,0.41593095660209656,False
+wheat_head_scab_Google_0092.jpg,wheat head scab,wheat head scab,0.9806236624717712,True
+apple_rust_google_0013.jpg,apple rust,apple rust,0.23984305560588837,True
+wheat_leaf_rust_Google_0251.jpg,wheat leaf rust,wheat stripe rust,0.40802040696144104,False
+zucchini_powdery_mildew_Google_0310.jpg,zucchini powdery mildew,cucumber powdery mildew,0.7672902941703796,False
+zucchini_powdery_mildew_Bing_0203.jpg,zucchini powdery mildew,zucchini powdery mildew,0.47898903489112854,True
+grape_black_rot_google_0087.jpg,grape black rot,grape black rot,0.9766117930412292,True
+wheat_bacterial_leaf_streak_(black_chaff)_google_black_chaff (14).jpg,wheat bacterial leaf streak (black chaff),wheat bacterial leaf streak (black chaff),0.7232487797737122,True
+peach_leaf_curl_15.jpg,peach leaf curl,peach leaf curl,0.999927282333374,True
+garlic_leaf_blight_google_0065.jpg,garlic leaf blight,garlic leaf blight,0.47738856077194214,True
+grape_downy_mildew_150.jpg,grape downy mildew,grape downy mildew,0.6406385898590088,True
+broccoli_downy_mildew_29.jpg,broccoli downy mildew,broccoli downy mildew,0.4842208921909332,True
+wheat_septoria_blotch_blotch (123).jpg,wheat septoria blotch,rice sheath blight,0.5732765197753906,False
+cucumber_bacterial_wilt_128.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.3344232141971588,True
+corn_gray_leaf_spot_google_0008.jpg,corn gray leaf spot,corn northern leaf blight,0.9013194441795349,False
+apple_mosaic_virus_google_0106.jpg,apple mosaic virus,peach brown rot,0.2681841552257538,False
+zucchini_powdery_mildew_Google_0283.jpg,zucchini powdery mildew,cucumber powdery mildew,0.46836602687835693,False
+bean_rust_59.jpg,bean rust,soybean rust,0.8306524753570557,False
+bell_pepper_bacterial_spot_Bing_0031.jpg,bell pepper bacterial spot,bell pepper bacterial spot,0.8948002457618713,True
+maple_tar_spot_google_0064.jpg,maple tar spot,squash powdery mildew,0.24620608985424042,False
+corn_smut_google_0130.jpg,corn smut,corn smut,0.9979217648506165,True
+wheat_stripe_rust_Baidu_0024.jpg,wheat stripe rust,garlic rust,0.5585191249847412,False
+bean_rust_google_0097.jpg,bean rust,potato early blight,0.4450449049472809,False
+apple_black_rot_google_0005.jpg,apple black rot,apple scab,0.5206986665725708,False
+strawberry_anthracnose_google_0024.jpg,strawberry anthracnose,strawberry anthracnose,0.883988618850708,True
+apple_scab_11.jpg,apple scab,apple scab,0.6566476821899414,True
+banana_anthracnose_Baidu_0115.jpg,banana anthracnose,banana cigar end rot,0.5515187978744507,False
+wheat_bacterial_leaf_streak_(black_chaff)_black_chaff (12).jpg,wheat bacterial leaf streak (black chaff),wheat bacterial leaf streak (black chaff),0.6798219084739685,True
+zucchini_bacterial_wilt_Bing_0096.jpg,zucchini bacterial wilt,zucchini bacterial wilt,0.8044837713241577,True
+wheat_stripe_rust_Baidu_0430.jpg,wheat stripe rust,wheat stripe rust,0.26144328713417053,True
+tomato_mosaic_virus_google_0020.jpg,tomato mosaic virus,zucchini bacterial wilt,0.20500428974628448,False
+bell_pepper_bacterial_spot_Google_0061.jpg,bell pepper bacterial spot,wheat septoria blotch,0.10490909218788147,False
+blueberry_scorch_Bing_0214.jpg,blueberry scorch,blueberry scorch,0.30955183506011963,True
+blueberry_scorch_Bing_0126.jpg,blueberry scorch,bean halo blight,0.1480846107006073,False
+tomato_leaf_mold_167.jpg,tomato leaf mold,zucchini yellow mosaic virus,0.29579171538352966,False
+tomato_mosaic_virus_3.jpg,tomato mosaic virus,tomato mosaic virus,0.9917281866073608,True
+tomato_late_blight_google_0150.jpg,tomato late blight,tomato late blight,0.5667946934700012,True
+tomato_early_blight_google_0290.jpg,tomato early blight,soybean mosaic,0.6224190592765808,False
+tomato_early_blight_google_0230.jpg,tomato early blight,tomato early blight,0.46147653460502625,True
+tomato_bacterial_leaf_spot_20.jpg,tomato bacterial leaf spot,tomato bacterial leaf spot,0.933240532875061,True
+corn_smut_google_0019.jpg,corn smut,corn smut,0.999848484992981,True
+corn_rust_google_0009.jpg,corn rust,corn gray leaf spot,0.22144094109535217,False
+corn_northern_leaf_blight_google_0015.jpg,corn northern leaf blight,corn northern leaf blight,0.7954308390617371,True
+corn_gray_leaf_spot_google_0041.jpg,corn gray leaf spot,corn northern leaf blight,0.5742306709289551,False
+bean_mosaic_virus_25.jpg,bean mosaic virus,soybean downy mildew,0.22585590183734894,False
+cabbage_black_rot_Bing_0057.jpg,cabbage black rot,cabbage black rot,0.9976612329483032,True
+eggplant_phytophthora_blight_Google_0018.jpg,eggplant phytophthora blight,eggplant phomopsis fruit rot,0.9907168745994568,False
+peach_leaf_curl_40.jpg,peach leaf curl,citrus greening disease,0.17469282448291779,False
+tomato_early_blight_google_0005.jpg,tomato early blight,tomato early blight,0.15799395740032196,True
+apple_scab_google_0050.jpg,apple scab,citrus canker,0.1301419734954834,False
+grape_downy_mildew_220.jpg,grape downy mildew,grape downy mildew,0.9999759197235107,True
+wheat_septoria_blotch_Google_0002.jpg,wheat septoria blotch,wheat bacterial leaf streak (black chaff),0.5787255167961121,False
+garlic_rust_156.jpg,garlic rust,corn rust,0.9737290740013123,False
+squash_powdery_mildew_61.jpg,squash powdery mildew,cucumber powdery mildew,0.7450941205024719,False
+celery_anthracnose_2.jpg,celery anthracnose,celery early blight,0.42667266726493835,False
+banana_anthracnose_Bing_0187.jpg,banana anthracnose,banana anthracnose,0.5326607823371887,True
+banana_anthracnose_Baidu_0019.jpg,banana anthracnose,banana cigar end rot,0.5215509533882141,False
+soybean_bacterial_blight_Bing_0062.jpg,soybean bacterial blight,soybean downy mildew,0.5714008212089539,False
+tomato_septoria_leaf_spot_196.jpg,tomato septoria leaf spot,tomato leaf mold,0.16264590620994568,False
+tomato_septoria_leaf_spot_google_0060.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.29271385073661804,True
+citrus_canker_117.jpg,citrus canker,citrus canker,0.6208018064498901,True
+tomato_leaf_mold_46.jpg,tomato leaf mold,tomato leaf mold,0.8193361163139343,True
+apple_scab_google_0069.jpg,apple scab,apple scab,0.5942694544792175,True
+soybean_bacterial_blight_Bing_0155.jpg,soybean bacterial blight,soybean bacterial blight,0.3990444540977478,True
+wheat_septoria_blotch_blotch (132).jpg,wheat septoria blotch,wheat stripe rust,0.6268887519836426,False
+grape_downy_mildew_161.jpg,grape downy mildew,grape downy mildew,0.9694072008132935,True
+garlic_rust_88.jpg,garlic rust,ginger sheath blight,0.22284024953842163,False
+peach_leaf_curl_5.jpg,peach leaf curl,peach leaf curl,0.9170355200767517,True
+cauliflower_bacterial_soft_rot_Bing_0109.jpg,cauliflower bacterial soft rot,cauliflower alternaria leaf spot,0.20580947399139404,False
+wheat_head_scab_Baidu_0267.jpg,wheat head scab,wheat head scab,0.9118376970291138,True
+wheat_stem_rust_Bing_0124.jpg,wheat stem rust,wheat stem rust,0.9906670451164246,True
+bean_rust_google_0001.jpg,bean rust,soybean rust,0.630286693572998,False
+squash_powdery_mildew_google_0112.jpg,squash powdery mildew,soybean bacterial blight,0.17759253084659576,False
+wheat_septoria_blotch_blotch (18).jpg,wheat septoria blotch,wheat septoria blotch,0.47701531648635864,True
+banana_black_leaf_streak_banana black sigatoka (69).jpg,banana black leaf streak,banana black leaf streak,0.9988901019096375,True
+soybean_downy_mildew_Bing_0169.jpg,soybean downy mildew,soybean downy mildew,0.8713619112968445,True
+wheat_head_scab_Baidu_0085.jpg,wheat head scab,wheat head scab,0.9309574365615845,True
+banana_panama_disease_109.jpg,banana panama disease,banana panama disease,0.5185167193412781,True
+cucumber_angular_leaf_spot_247.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.853827178478241,True
+tomato_septoria_leaf_spot_195.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.8992263078689575,True
+soybean_frog_eye_leaf_spot_Bing_0010.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.7876569628715515,True
+raspberry_leaf_spot_Bing_0044.jpg,raspberry leaf spot,potato early blight,0.19450263679027557,False
+grape_leaf_spot_151.jpg,grape leaf spot,grape leaf spot,0.15568473935127258,True
+rice_blast_24.jpg,rice blast,corn rust,0.4884774684906006,False
+wheat_head_scab_Google_0327.jpg,wheat head scab,wheat head scab,0.8426373600959778,True
+broccoli_alternaria_leaf_spot_Bing_0188.jpg,broccoli alternaria leaf spot,grape downy mildew,0.43787893652915955,False
+zucchini_yellow_mosaic_virus_google_0106.jpg,zucchini yellow mosaic virus,zucchini yellow mosaic virus,0.7422310709953308,True
+cucumber_bacterial_wilt_13.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.49245133996009827,True
+peach_leaf_curl_google_0144.jpg,peach leaf curl,peach leaf curl,0.9948689937591553,True
+corn_smut_google_0075.jpg,corn smut,zucchini powdery mildew,0.2246495634317398,False
+banana_black_leaf_streak_Bing_0230.jpg,banana black leaf streak,banana black leaf streak,0.6591101288795471,True
+zucchini_powdery_mildew_Google_0096.jpg,zucchini powdery mildew,zucchini powdery mildew,0.9084959030151367,True
+wheat_stripe_rust_Baidu_0341.jpg,wheat stripe rust,wheat stripe rust,0.9747008681297302,True
+wheat_head_scab_Bing_0098.jpg,wheat head scab,wheat head scab,0.9988304972648621,True
+wheat_bacterial_leaf_streak_(black_chaff)_Bing_0016.jpg,wheat bacterial leaf streak (black chaff),wheat stem rust,0.8657000064849854,False
+bean_halo_blight_google_0043.jpg,bean halo blight,soybean mosaic,0.6213233470916748,False
+coffee_leaf_rust_google_0053.jpg,coffee leaf rust,coffee leaf rust,0.9821611642837524,True
+wheat_powdery_mildew_Bing_0172.jpg,wheat powdery mildew,wheat powdery mildew,0.9958897233009338,True
+carrot_cavity_spot_google_0186.jpg,carrot cavity spot,carrot cavity spot,0.9810506701469421,True
+citrus_greening_disease_11.jpg,citrus greening disease,banana bunchy top,0.6918704509735107,False
+citrus_canker_google_0222.jpg,citrus canker,citrus canker,0.7829885482788086,True
+peach_scab_Bing_0144.jpg,peach scab,peach scab,0.5555543303489685,True
+cabbage_alternaria_leaf_spot_google_0004.jpg,cabbage alternaria leaf spot,broccoli alternaria leaf spot,0.9833330512046814,False
+citrus_canker_google_0219.jpg,citrus canker,citrus canker,0.3159012496471405,True
+grape_black_rot_171.jpg,grape black rot,blueberry mummy berry,0.4961126446723938,False
+cucumber_angular_leaf_spot_5.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.9936736822128296,True
+tomato_early_blight_google_0088.jpg,tomato early blight,tomato early blight,0.4505074918270111,True
+apple_rust_google_0028.jpg,apple rust,soybean brown spot,0.16116127371788025,False
+apple_mosaic_virus_google_0058.jpg,apple mosaic virus,soybean frog eye leaf spot,0.2192298173904419,False
+broccoli_alternaria_leaf_spot_Bing_0087.jpg,broccoli alternaria leaf spot,broccoli alternaria leaf spot,0.9837534427642822,True
+tomato_early_blight_google_0048.jpg,tomato early blight,tomato early blight,0.7844784259796143,True
+wheat_bacterial_leaf_streak_(black_chaff)_Baidu_0214.jpg,wheat bacterial leaf streak (black chaff),wheat stripe rust,0.68732750415802,False
+apple_rust_19.jpg,apple rust,citrus canker,0.9601768255233765,False
+wheat_stem_rust_Bing_0048.jpg,wheat stem rust,wheat stem rust,0.9918885827064514,True
+wheat_head_scab_Baidu_0258.jpg,wheat head scab,wheat head scab,0.997065007686615,True
+zucchini_powdery_mildew_Bing_0183.jpg,zucchini powdery mildew,zucchini powdery mildew,0.9785829782485962,True
+plum_pox_virus_Bing_0004.jpg,plum pox virus,apple mosaic virus,0.5757061243057251,False
+wheat_powdery_mildew_Baidu_0296.jpg,wheat powdery mildew,garlic leaf blight,0.8182334899902344,False
+blueberry_mummy_berry_Bing_0304.jpg,blueberry mummy berry,blueberry mummy berry,0.2966574430465698,True
+cucumber_powdery_mildew_google_0083.jpg,cucumber powdery mildew,squash powdery mildew,0.5464467406272888,False
+rice_sheath_blight_34.jpg,rice sheath blight,wheat stem rust,0.45771265029907227,False
+raspberry_fire_blight_Bing_0000.jpg,raspberry fire blight,raspberry fire blight,0.9055321216583252,True
+soybean_frog_eye_leaf_spot_Bing_0226.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9948992133140564,True
+tomato_yellow_leaf_curl_virus_google_0080.jpg,tomato yellow leaf curl virus,tomato yellow leaf curl virus,0.7976961731910706,True
+wheat_stem_rust_Google_0157.jpg,wheat stem rust,wheat stem rust,0.6719646453857422,True
+banana_black_leaf_streak_banana black sigatoka (66).jpg,banana black leaf streak,corn northern leaf blight,0.37061211466789246,False
+cucumber_powdery_mildew_40.jpg,cucumber powdery mildew,cucumber powdery mildew,0.23379532992839813,True
+grape_downy_mildew_google_0157.jpg,grape downy mildew,cucumber powdery mildew,0.27791717648506165,False
+wheat_powdery_mildew_Baidu_0000.jpg,wheat powdery mildew,wheat powdery mildew,0.9978806972503662,True
+apple_mosaic_virus_28.jpg,apple mosaic virus,apple mosaic virus,0.9223436117172241,True
+apple_scab_google_0078.jpg,apple scab,apple scab,0.14707191288471222,True
+tomato_septoria_leaf_spot_google_0255.jpg,tomato septoria leaf spot,soybean bacterial blight,0.46987488865852356,False
+wheat_loose_smut_Bing_0000.jpg,wheat loose smut,wheat loose smut,0.9995949864387512,True
+wheat_head_scab_Bing_0008.jpg,wheat head scab,wheat head scab,0.5929169654846191,True
+rice_blast_85.jpg,rice blast,banana cordana leaf spot,0.41089898347854614,False
+apple_scab_google_0192.jpg,apple scab,plum pocket disease,0.6181991696357727,False
+tomato_leaf_mold_google_0017.jpg,tomato leaf mold,tomato early blight,0.8006948828697205,False
+maple_tar_spot_google_0069.jpg,maple tar spot,grape downy mildew,0.44067901372909546,False
+soybean_mosaic_Bing_0070.jpg,soybean mosaic,soybean mosaic,0.9033467769622803,True
+soybean_downy_mildew_Bing_0071.jpg,soybean downy mildew,soybean downy mildew,0.9754618406295776,True
+soybean_frog_eye_leaf_spot_Google_0054.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.6591982841491699,True
+wheat_septoria_blotch_google_septoria (5).jpg,wheat septoria blotch,wheat septoria blotch,0.9986944794654846,True
+lettuce_mosaic_virus_7.jpg,lettuce mosaic virus,tomato yellow leaf curl virus,0.5487975478172302,False
+wheat_stem_rust_Bing_0268.jpg,wheat stem rust,wheat stem rust,0.9924829602241516,True
+tobacco_blue_mold_Bing_0085.jpg,tobacco blue mold,broccoli downy mildew,0.3946598172187805,False
+tobacco_blue_mold_Bing_0002.jpg,tobacco blue mold,coffee leaf rust,0.16326165199279785,False
+bean_rust_14.jpg,bean rust,bean rust,0.6801609992980957,True
+zucchini_powdery_mildew_Bing_0015.jpg,zucchini powdery mildew,zucchini powdery mildew,0.9473401308059692,True
+wheat_stripe_rust_Bing_0094.jpg,wheat stripe rust,wheat stripe rust,0.9878925681114197,True
+citrus_canker_143.jpg,citrus canker,citrus canker,0.9944742321968079,True
+apple_scab_google_0041.jpg,apple scab,apple scab,0.5599568486213684,True
+cucumber_angular_leaf_spot_50.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.9678919315338135,True
+banana_bunchy_top_Baidu_0022.jpg,banana bunchy top,banana bunchy top,0.45579689741134644,True
+bell_pepper_blossom_end_rot_Bing_0021.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.7762296795845032,True
+eggplant_cercospora_leaf_spot_185.jpg,eggplant cercospora leaf spot,cauliflower alternaria leaf spot,0.13638514280319214,False
+apple_scab_google_0032.jpg,apple scab,apple scab,0.9034594893455505,True
+banana_cigar_end_rot_Google_0040.jpg,banana cigar end rot,banana anthracnose,0.9857478737831116,False
+citrus_canker_396.jpg,citrus canker,citrus canker,0.9423622488975525,True
+wheat_head_scab_Baidu_0028.jpg,wheat head scab,wheat head scab,0.6534013152122498,True
+tobacco_frogeye_leaf_spot_Bing_0008.jpg,tobacco frogeye leaf spot,tobacco brown spot,0.9681227207183838,False
+coffee_berry_blotch_Bing_0041.jpg,coffee berry blotch,apple rust,0.25147107243537903,False
+banana_black_leaf_streak_Baidu_0002.jpg,banana black leaf streak,banana black leaf streak,0.977493405342102,True
+apple_rust_3.jpg,apple rust,apple mosaic virus,0.2969296872615814,False
+grape_leaf_spot_google_0090.jpg,grape leaf spot,grape leaf spot,0.3643795847892761,True
+bell_pepper_bacterial_spot_Bing_0110.jpg,bell pepper bacterial spot,apple mosaic virus,0.29720190167427063,False
+wheat_loose_smut_Baidu_0015.jpg,wheat loose smut,wheat loose smut,0.9835969805717468,True
+corn_gray_leaf_spot_google_0064.jpg,corn gray leaf spot,corn northern leaf blight,0.8114757537841797,False
+tomato_septoria_leaf_spot_148.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.9298726320266724,True
+cauliflower_alternaria_leaf_spot_google_0095.jpg,cauliflower alternaria leaf spot,tobacco brown spot,0.8664553165435791,False
+zucchini_bacterial_wilt_Bing_0163.jpg,zucchini bacterial wilt,cucumber bacterial wilt,0.4334460496902466,False
+eggplant_phomopsis_fruit_rot_Bing_0000.jpg,eggplant phomopsis fruit rot,eggplant phomopsis fruit rot,0.9948911666870117,True
+soybean_frog_eye_leaf_spot_Bing_0187.jpg,soybean frog eye leaf spot,soybean rust,0.20240271091461182,False
+zucchini_yellow_mosaic_virus_google_0034.jpg,zucchini yellow mosaic virus,grape downy mildew,0.4277365803718567,False
+zucchini_powdery_mildew_Google_0123.jpg,zucchini powdery mildew,zucchini powdery mildew,0.5196762084960938,True
+grapevine_leafroll_disease_google_0049.jpg,grapevine leafroll disease,grapevine leafroll disease,0.4617122411727905,True
+coffee_leaf_rust_google_0020.jpg,coffee leaf rust,soybean mosaic,0.14994055032730103,False
+banana_black_leaf_streak_Bing_0046.jpg,banana black leaf streak,banana black leaf streak,0.9547020792961121,True
+corn_rust_81.jpg,corn rust,corn rust,0.8948541283607483,True
+apple_scab_google_0190.jpg,apple scab,citrus greening disease,0.6846555471420288,False
+wheat_loose_smut_Bing_0014.jpg,wheat loose smut,wheat loose smut,0.7760567665100098,True
+wheat_stripe_rust_Bing_0071.jpg,wheat stripe rust,wheat stripe rust,0.9976536631584167,True
+potato_early_blight_3.jpg,potato early blight,potato late blight,0.9189102053642273,False
+cabbage_black_rot_Bing_0213.jpg,cabbage black rot,cabbage black rot,0.9984791874885559,True
+peach_leaf_curl_google_0089.jpg,peach leaf curl,peach leaf curl,0.9462729096412659,True
+cucumber_angular_leaf_spot_152.jpg,cucumber angular leaf spot,apple mosaic virus,0.11317117512226105,False
+cucumber_bacterial_wilt_google_0013.jpg,cucumber bacterial wilt,raspberry fire blight,0.2839224934577942,False
+apple_rust_31.jpg,apple rust,apple rust,0.5694628953933716,True
+peach_brown_rot_Google_0085.jpg,peach brown rot,bell pepper blossom end rot,0.4428688883781433,False
+tomato_leaf_mold_278.jpg,tomato leaf mold,tomato leaf mold,0.984060525894165,True
+apple_mosaic_virus_19.jpg,apple mosaic virus,tomato yellow leaf curl virus,0.16175520420074463,False
+grape_downy_mildew_google_0122.jpg,grape downy mildew,grape downy mildew,0.5446496605873108,True
+plum_pocket_disease_19.jpg,plum pocket disease,plum pocket disease,0.24520891904830933,True
+apple_black_rot_google_0012.jpg,apple black rot,apple black rot,0.9558815360069275,True
+potato_early_blight_google_0197.jpg,potato early blight,bean halo blight,0.4763895869255066,False
+ginger_sheath_blight_3.jpg,ginger sheath blight,banana black leaf streak,0.4759097993373871,False
+corn_gray_leaf_spot_6.jpg,corn gray leaf spot,corn northern leaf blight,0.5565522909164429,False
+corn_northern_leaf_blight_google_0003.jpg,corn northern leaf blight,corn northern leaf blight,0.9844632148742676,True
+soybean_frog_eye_leaf_spot_Google_0045.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9886212944984436,True
+tomato_yellow_leaf_curl_virus_151.jpg,tomato yellow leaf curl virus,tomato yellow leaf curl virus,0.7748422622680664,True
+potato_late_blight_google_0079.jpg,potato late blight,potato early blight,0.2527219355106354,False
+tomato_late_blight_google_0048.jpg,tomato late blight,tomato late blight,0.8203822374343872,True
+carrot_alternaria_leaf_blight_Bing_0146.jpg,carrot alternaria leaf blight,carrot alternaria leaf blight,0.9963228702545166,True
+eggplant_cercospora_leaf_spot_google_0083.jpg,eggplant cercospora leaf spot,eggplant cercospora leaf spot,0.28584879636764526,True
+bell_pepper_blossom_end_rot_Bing_0143.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.7387104034423828,True
+cabbage_black_rot_Bing_0115.jpg,cabbage black rot,cabbage black rot,0.9968039989471436,True
+bell_pepper_powdery_mildew_Bing_0031.jpg,bell pepper powdery mildew,bell pepper powdery mildew,0.9059005975723267,True
+grape_downy_mildew_178.jpg,grape downy mildew,grape downy mildew,0.9941356182098389,True
+tomato_late_blight_google_0087.jpg,tomato late blight,peach brown rot,0.22276508808135986,False
+banana_panama_disease_google_0070.jpg,banana panama disease,banana panama disease,0.8808671236038208,True
+peach_scab_Bing_0147.jpg,peach scab,peach scab,0.9935644268989563,True
+wheat_stem_rust_Bing_0213.jpg,wheat stem rust,wheat stem rust,0.9581576585769653,True
+coffee_leaf_rust_27.jpg,coffee leaf rust,apple rust,0.36514315009117126,False
+cabbage_downy_mildew_Bing_0117.jpg,cabbage downy mildew,tomato leaf mold,0.2535478174686432,False
+citrus_canker_google_0074.jpg,citrus canker,citrus canker,0.9277270436286926,True
+wheat_powdery_mildew_Google_0073.jpg,wheat powdery mildew,wheat powdery mildew,0.908953070640564,True
+raspberry_yellow_rust_Bing_0109.jpg,raspberry yellow rust,raspberry yellow rust,0.6336163282394409,True
+soybean_mosaic_Baidu_0149.jpg,soybean mosaic,tomato mosaic virus,0.9838314056396484,False
+garlic_rust_google_0003.jpg,garlic rust,garlic rust,0.7938024997711182,True
+citrus_canker_275.jpg,citrus canker,citrus canker,0.9140110611915588,True
+apple_mosaic_virus_google_0053.jpg,apple mosaic virus,apple mosaic virus,0.4726434350013733,True
+cabbage_black_rot_Bing_0087.jpg,cabbage black rot,cabbage black rot,0.6442609429359436,True
+tomato_early_blight_47.jpg,tomato early blight,tomato early blight,0.9982432126998901,True
+banana_bunchy_top_Baidu_0152.jpg,banana bunchy top,banana bunchy top,0.9542080163955688,True
+apple_mosaic_virus_google_0020.jpg,apple mosaic virus,apple mosaic virus,0.7430409789085388,True
+wheat_stripe_rust_Bing_0195.jpg,wheat stripe rust,garlic leaf blight,0.7058637738227844,False
+tomato_early_blight_google_0406.jpg,tomato early blight,potato early blight,0.9659115672111511,False
+citrus_canker_371.jpg,citrus canker,citrus canker,0.9962538480758667,True
+apple_black_rot_google_0015.jpg,apple black rot,apple black rot,0.8229146599769592,True
+soybean_frog_eye_leaf_spot_Bing_0064.jpg,soybean frog eye leaf spot,soybean rust,0.39396050572395325,False
+wheat_bacterial_leaf_streak_(black_chaff)_Bing_0015.jpg,wheat bacterial leaf streak (black chaff),wheat bacterial leaf streak (black chaff),0.9220224022865295,True
+lettuce_downy_mildew_google_0053.jpg,lettuce downy mildew,grape downy mildew,0.9963046312332153,False
+blueberry_anthracnose_Bing_0027.jpg,blueberry anthracnose,plum brown rot,0.17465002834796906,False
+squash_powdery_mildew_google_0363.jpg,squash powdery mildew,squash powdery mildew,0.33957377076148987,True
+tomato_mosaic_virus_19.jpg,tomato mosaic virus,tomato yellow leaf curl virus,0.8627356886863708,False
+potato_early_blight_google_0011.jpg,potato early blight,tomato septoria leaf spot,0.1189979761838913,False
+plum_bacterial_spot_Bing_0043.jpg,plum bacterial spot,grape black rot,0.6457229256629944,False
+broccoli_alternaria_leaf_spot_Bing_0189.jpg,broccoli alternaria leaf spot,cabbage alternaria leaf spot,0.20540085434913635,False
+ginger_sheath_blight_176.jpg,ginger sheath blight,garlic leaf blight,0.4133397936820984,False
+wheat_powdery_mildew_Baidu_0189.jpg,wheat powdery mildew,wheat powdery mildew,0.9764469861984253,True
+zucchini_bacterial_wilt_Bing_0066.jpg,zucchini bacterial wilt,cucumber bacterial wilt,0.9771407842636108,False
+cucumber_bacterial_wilt_google_0009.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.2353498339653015,True
+wheat_stem_rust_Bing_0076.jpg,wheat stem rust,wheat stem rust,0.9922382235527039,True
+wheat_stem_rust_Bing_0196.jpg,wheat stem rust,wheat stem rust,0.290031760931015,True
+banana_panama_disease_google_0049.jpg,banana panama disease,banana panama disease,0.9643280506134033,True
+wheat_leaf_rust_Bing_0001.jpg,wheat leaf rust,wheat leaf rust,0.9952672719955444,True
+peach_scab_Bing_0016.jpg,peach scab,peach scab,0.48850539326667786,True
+cucumber_angular_leaf_spot_210.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.9984993934631348,True
+citrus_canker_17.jpg,citrus canker,citrus canker,0.972614586353302,True
+citrus_greening_disease_google_0226.jpg,citrus greening disease,citrus greening disease,0.9948307871818542,True
+soybean_frog_eye_leaf_spot_Bing_0031.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9935778379440308,True
+garlic_leaf_blight_google_0315.jpg,garlic leaf blight,rice sheath blight,0.1785891056060791,False
+cabbage_black_rot_Bing_0101.jpg,cabbage black rot,cabbage black rot,0.9997829794883728,True
+eggplant_cercospora_leaf_spot_197.jpg,eggplant cercospora leaf spot,eggplant cercospora leaf spot,0.2768428325653076,True
+wheat_head_scab_Baidu_0271.jpg,wheat head scab,wheat head scab,0.6994841694831848,True
+grape_downy_mildew_260.jpg,grape downy mildew,grape downy mildew,0.9999101161956787,True
+wheat_powdery_mildew_Baidu_0043.jpg,wheat powdery mildew,garlic leaf blight,0.8466340899467468,False
+tomato_septoria_leaf_spot_google_0032.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.794245183467865,True
+grape_downy_mildew_231.jpg,grape downy mildew,tomato mosaic virus,0.4025525748729706,False
+plum_pox_virus_Bing_0099.jpg,plum pox virus,apple scab,0.3391326665878296,False
+citrus_canker_322.jpg,citrus canker,citrus canker,0.9909365773200989,True
+grape_downy_mildew_google_0212.jpg,grape downy mildew,grape downy mildew,0.5680264830589294,True
+tomato_early_blight_google_0052.jpg,tomato early blight,zucchini powdery mildew,0.2503650188446045,False
+citrus_greening_disease_google_0036.jpg,citrus greening disease,citrus greening disease,0.5379108190536499,True
+apple_black_rot_google_0071.jpg,apple black rot,apple scab,0.2784280478954315,False
+tomato_early_blight_3.jpg,tomato early blight,tomato leaf mold,0.20265227556228638,False
+plum_pocket_disease_google_0041.jpg,plum pocket disease,plum pocket disease,0.5239308476448059,True
+soybean_frog_eye_leaf_spot_Bing_0040.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9985419511795044,True
+citrus_canker_85.jpg,citrus canker,citrus canker,0.9913014769554138,True
+blueberry_mummy_berry_Bing_0003.jpg,blueberry mummy berry,blueberry mummy berry,0.23834086954593658,True
+carrot_alternaria_leaf_blight_Bing_0087.jpg,carrot alternaria leaf blight,carrot alternaria leaf blight,0.5438064932823181,True
+wheat_septoria_blotch_Google_0165.jpg,wheat septoria blotch,wheat septoria blotch,0.9927918910980225,True
+wheat_powdery_mildew_Google_0298.jpg,wheat powdery mildew,wheat stripe rust,0.5868270397186279,False
+cabbage_alternaria_leaf_spot_167.jpg,cabbage alternaria leaf spot,cabbage alternaria leaf spot,0.8986295461654663,True
+wheat_bacterial_leaf_streak_(black_chaff)_black_chaff (27).jpg,wheat bacterial leaf streak (black chaff),wheat bacterial leaf streak (black chaff),0.980288028717041,True
+corn_rust_30.jpg,corn rust,garlic leaf blight,0.4505395293235779,False
+wheat_powdery_mildew_Bing_0096.jpg,wheat powdery mildew,wheat powdery mildew,0.9992621541023254,True
+bell_pepper_powdery_mildew_Bing_0003.jpg,bell pepper powdery mildew,basil downy mildew,0.9773640632629395,False
+grape_leaf_spot_38.jpg,grape leaf spot,grape leaf spot,0.9613083004951477,True
+squash_powdery_mildew_8.jpg,squash powdery mildew,squash powdery mildew,0.6648940443992615,True
+soybean_frog_eye_leaf_spot_Baidu_0004.jpg,soybean frog eye leaf spot,bean rust,0.3679574131965637,False
+wheat_bacterial_leaf_streak_(black_chaff)_Baidu_0210.jpg,wheat bacterial leaf streak (black chaff),corn northern leaf blight,0.37926968932151794,False
+raspberry_gray_mold_Bing_0035.jpg,raspberry gray mold,raspberry gray mold,0.9805629253387451,True
+banana_panama_disease_google_0019.jpg,banana panama disease,banana bunchy top,0.5104709267616272,False
+wheat_stripe_rust_Google_0019.jpg,wheat stripe rust,wheat stripe rust,0.8624998331069946,True
+tomato_leaf_mold_183.jpg,tomato leaf mold,tomato leaf mold,0.7050886750221252,True
+cucumber_powdery_mildew_google_0051.jpg,cucumber powdery mildew,squash powdery mildew,0.47748324275016785,False
+zucchini_downy_mildew_Google_0264.jpg,zucchini downy mildew,bean rust,0.6206785440444946,False
+soybean_frog_eye_leaf_spot_Bing_0018.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9208362102508545,True
+carrot_cercospora_leaf_blight_Bing_0059.jpg,carrot cercospora leaf blight,carrot alternaria leaf blight,0.9982438087463379,False
+grape_downy_mildew_230.jpg,grape downy mildew,grape downy mildew,0.9912206530570984,True
+wheat_powdery_mildew_Bing_0108.jpg,wheat powdery mildew,wheat powdery mildew,0.9922647476196289,True
+wheat_head_scab_Google_0295.jpg,wheat head scab,wheat head scab,0.9544177055358887,True
+wheat_septoria_blotch_Baidu_0010.jpg,wheat septoria blotch,wheat septoria blotch,0.7983993291854858,True
+wheat_loose_smut_Bing_0073.jpg,wheat loose smut,wheat loose smut,0.5226593017578125,True
+grape_downy_mildew_google_0365.jpg,grape downy mildew,grape downy mildew,0.2599833011627197,True
+bell_pepper_blossom_end_rot_Google_0165.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.8652569055557251,True
+wheat_head_scab_Baidu_0245.jpg,wheat head scab,wheat head scab,0.9117579460144043,True
+wheat_stem_rust_Bing_0007.jpg,wheat stem rust,wheat stem rust,0.998022198677063,True
+grapevine_leafroll_disease_49.jpg,grapevine leafroll disease,lettuce downy mildew,0.7459334135055542,False
+squash_powdery_mildew_google_0083.jpg,squash powdery mildew,squash powdery mildew,0.5430347919464111,True
+grapevine_leafroll_disease_86.jpg,grapevine leafroll disease,banana black leaf streak,0.2778746485710144,False
+wheat_powdery_mildew_Baidu_0031.jpg,wheat powdery mildew,wheat powdery mildew,0.9013569951057434,True
+blueberry_rust_google_0013.jpg,blueberry rust,blueberry rust,0.8781905770301819,True
+apple_scab_google_0165.jpg,apple scab,apple scab,0.9512691497802734,True
+tomato_yellow_leaf_curl_virus_6.jpg,tomato yellow leaf curl virus,tomato yellow leaf curl virus,0.9999427795410156,True
+banana_panama_disease_10.jpg,banana panama disease,banana cigar end rot,0.22356262803077698,False
+grape_downy_mildew_google_0184.jpg,grape downy mildew,grape downy mildew,0.9896482825279236,True
+cabbage_black_rot_Bing_0024.jpg,cabbage black rot,cabbage black rot,0.2791982889175415,True
+corn_northern_leaf_blight_google_0097.jpg,corn northern leaf blight,corn northern leaf blight,0.492132306098938,True
+wheat_leaf_rust_Baidu_0345.jpg,wheat leaf rust,rice blast,0.657136857509613,False
+wheat_powdery_mildew_Baidu_0179.jpg,wheat powdery mildew,wheat loose smut,0.5994137525558472,False
+raspberry_yellow_rust_Bing_0022.jpg,raspberry yellow rust,raspberry yellow rust,0.33907845616340637,True
+soybean_rust_Bing_0050.jpg,soybean rust,soybean rust,0.7011247277259827,True
+grape_leaf_spot_21.jpg,grape leaf spot,grape downy mildew,0.9859998822212219,False
+cabbage_black_rot_Bing_0045.jpg,cabbage black rot,cabbage black rot,0.992978036403656,True
+cherry_leaf_spot_4.jpg,cherry leaf spot,cherry leaf spot,0.9331559538841248,True
+wheat_septoria_blotch_blotch (55).jpg,wheat septoria blotch,wheat septoria blotch,0.8728012442588806,True
+peach_leaf_curl_google_0082.jpg,peach leaf curl,carrot alternaria leaf blight,0.4967022240161896,False
+soybean_brown_spot_Bing_0021.jpg,soybean brown spot,apple rust,0.30911490321159363,False
+ginger_sheath_blight_38.jpg,ginger sheath blight,ginger sheath blight,0.37988051772117615,True
+cherry_leaf_spot_google_0071.jpg,cherry leaf spot,apple rust,0.20700286328792572,False
+wheat_head_scab_Baidu_0050.jpg,wheat head scab,wheat head scab,0.9726681113243103,True
+apple_rust_1.jpg,apple rust,apple rust,0.2012796849012375,True
+peach_brown_rot_Bing_0018.jpg,peach brown rot,peach brown rot,0.9859504103660583,True
+banana_cordana_leaf_spot_Bing_0054.jpg,banana cordana leaf spot,banana black leaf streak,0.9980924725532532,False
+squash_powdery_mildew_16.jpg,squash powdery mildew,squash powdery mildew,0.4415293335914612,True
+cucumber_angular_leaf_spot_340.jpg,cucumber angular leaf spot,squash powdery mildew,0.5256642699241638,False
+bean_mosaic_virus_4.jpg,bean mosaic virus,bean mosaic virus,0.6209418773651123,True
+cucumber_powdery_mildew_14.jpg,cucumber powdery mildew,cucumber powdery mildew,0.9903883337974548,True
+plum_brown_rot_Bing_0044.jpg,plum brown rot,citrus canker,0.8551380038261414,False
+banana_black_leaf_streak_banana black sigatoka (55).jpg,banana black leaf streak,banana black leaf streak,0.944542646408081,True
+coffee_leaf_rust_google_0173.jpg,coffee leaf rust,coffee leaf rust,0.573533833026886,True
+plum_pocket_disease_google_0105.jpg,plum pocket disease,basil downy mildew,0.2490401268005371,False
+wheat_head_scab_Baidu_0044.jpg,wheat head scab,wheat head scab,0.9946185350418091,True
+bell_pepper_blossom_end_rot_Google_0071.jpg,bell pepper blossom end rot,tomato early blight,0.8174487352371216,False
+bell_pepper_blossom_end_rot_Bing_0153.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.4720463752746582,True
+grape_black_rot_google_0064.jpg,grape black rot,grape downy mildew,0.41646844148635864,False
+tomato_septoria_leaf_spot_64.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.22411371767520905,True
+cauliflower_alternaria_leaf_spot_162.jpg,cauliflower alternaria leaf spot,grape black rot,0.286624014377594,False
+plum_pox_virus_Bing_0111.jpg,plum pox virus,plum pox virus,0.18691705167293549,True
+apple_scab_google_0103.jpg,apple scab,apple scab,0.34471651911735535,True
+banana_black_leaf_streak_Bing_0073.jpg,banana black leaf streak,banana black leaf streak,0.9889726042747498,True
+soybean_mosaic_Bing_0217.jpg,soybean mosaic,soybean mosaic,0.8987924456596375,True
+tomato_leaf_mold_google_0001.jpg,tomato leaf mold,tomato leaf mold,0.5132182240486145,True
+soybean_rust_Bing_0135.jpg,soybean rust,soybean rust,0.31091782450675964,True
+coffee_leaf_rust_google_0001.jpg,coffee leaf rust,apple rust,0.6889497637748718,False
+tomato_early_blight_1.jpg,tomato early blight,tomato late blight,0.40154382586479187,False
+cherry_leaf_spot_5.jpg,cherry leaf spot,bell pepper frogeye leaf spot,0.2678658366203308,False
+tomato_late_blight_79.jpg,tomato late blight,tomato late blight,0.7780979871749878,True
+eggplant_cercospora_leaf_spot_41.jpg,eggplant cercospora leaf spot,soybean frog eye leaf spot,0.7434386014938354,False
+wheat_stripe_rust_Bing_0026.jpg,wheat stripe rust,wheat stripe rust,0.9216082096099854,True
+blueberry_mummy_berry_Bing_0281.jpg,blueberry mummy berry,grape black rot,0.7310000658035278,False
+maple_tar_spot_google_0031.jpg,maple tar spot,maple tar spot,0.9346504211425781,True
+squash_powdery_mildew_google_0193.jpg,squash powdery mildew,grape downy mildew,0.6561543941497803,False
+bean_halo_blight_google_0010.jpg,bean halo blight,soybean downy mildew,0.3234283924102783,False
+cucumber_powdery_mildew_75.jpg,cucumber powdery mildew,zucchini yellow mosaic virus,0.3621606230735779,False
+banana_panama_disease_131.jpg,banana panama disease,banana panama disease,0.9542642831802368,True
+soybean_mosaic_Bing_0143.jpg,soybean mosaic,soybean mosaic,0.9738869071006775,True
+blueberry_scorch_Bing_0051.jpg,blueberry scorch,blueberry scorch,0.34788060188293457,True
+corn_rust_12.jpg,corn rust,corn rust,0.435867041349411,True
+citrus_canker_239.jpg,citrus canker,citrus canker,0.9998379945755005,True
+plum_brown_rot_Google_0201.jpg,plum brown rot,plum brown rot,0.9828045964241028,True
+grape_downy_mildew_28.jpg,grape downy mildew,grape downy mildew,0.9560232758522034,True
+grape_black_rot_google_0111.jpg,grape black rot,cucumber angular leaf spot,0.5961240530014038,False
+garlic_rust_71.jpg,garlic rust,garlic rust,0.4749690592288971,True
+ginger_sheath_blight_google_0046.jpg,ginger sheath blight,corn northern leaf blight,0.20454850792884827,False
+tomato_septoria_leaf_spot_162.jpg,tomato septoria leaf spot,tomato septoria leaf spot,0.5801965594291687,True
+coffee_leaf_rust_google_0117.jpg,coffee leaf rust,coffee leaf rust,0.5750955939292908,True
+peach_leaf_curl_36.jpg,peach leaf curl,peach leaf curl,0.9826210141181946,True
+lettuce_mosaic_virus_google_0170.jpg,lettuce mosaic virus,basil downy mildew,0.6866446137428284,False
+corn_rust_78.jpg,corn rust,corn rust,0.9992769360542297,True
+eggplant_phomopsis_fruit_rot_Google_0083.jpg,eggplant phomopsis fruit rot,apple black rot,0.4239204525947571,False
+cucumber_angular_leaf_spot_google_0041.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.4710930585861206,True
+cucumber_bacterial_wilt_45.jpg,cucumber bacterial wilt,cucumber bacterial wilt,0.9443197846412659,True
+citrus_greening_disease_google_0091.jpg,citrus greening disease,soybean mosaic,0.25239765644073486,False
+apple_black_rot_google_0065.jpg,apple black rot,apple black rot,0.6779200434684753,True
+tomato_late_blight_41.jpg,tomato late blight,tomato late blight,0.5100247859954834,True
+wheat_stem_rust_Google_0151.jpg,wheat stem rust,wheat stripe rust,0.5896511077880859,False
+wheat_powdery_mildew_Baidu_0066.jpg,wheat powdery mildew,wheat powdery mildew,0.9864822626113892,True
+tomato_late_blight_google_0120.jpg,tomato late blight,tomato late blight,0.984983503818512,True
+corn_northern_leaf_blight_google_0060.jpg,corn northern leaf blight,corn northern leaf blight,0.9966475367546082,True
+garlic_rust_187.jpg,garlic rust,wheat stripe rust,0.2990691661834717,False
+tomato_leaf_mold_19.jpg,tomato leaf mold,tomato leaf mold,0.9830611348152161,True
+tomato_leaf_mold_87.jpg,tomato leaf mold,tomato leaf mold,0.9956235289573669,True
+citrus_canker_56.jpg,citrus canker,citrus canker,0.9946792125701904,True
+tomato_bacterial_leaf_spot_google_0066.jpg,tomato bacterial leaf spot,citrus canker,0.28331702947616577,False
+wheat_stem_rust_Bing_0086.jpg,wheat stem rust,wheat stem rust,0.9962127208709717,True
+soybean_frog_eye_leaf_spot_Bing_0120.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.7089052796363831,True
+wheat_stripe_rust_Bing_0064.jpg,wheat stripe rust,wheat stripe rust,0.9928025603294373,True
+cucumber_powdery_mildew_25.jpg,cucumber powdery mildew,cucumber bacterial wilt,0.39754337072372437,False
+soybean_mosaic_Google_0071.jpg,soybean mosaic,soybean mosaic,0.8399256467819214,True
+tomato_leaf_mold_google_0038.jpg,tomato leaf mold,tomato leaf mold,0.35522153973579407,True
+wheat_septoria_blotch_blotch (104).jpg,wheat septoria blotch,wheat septoria blotch,0.3221965432167053,True
+banana_anthracnose_Bing_0000.jpg,banana anthracnose,banana anthracnose,0.9991763234138489,True
+corn_smut_google_0027.jpg,corn smut,corn smut,0.9895073771476746,True
+cherry_leaf_spot_google_0122.jpg,cherry leaf spot,apple scab,0.761000394821167,False
+wheat_powdery_mildew_Baidu_0309.jpg,wheat powdery mildew,rice sheath blight,0.20440325140953064,False
+wheat_powdery_mildew_Google_0137.jpg,wheat powdery mildew,wheat powdery mildew,0.374113529920578,True
+ginger_sheath_blight_60.jpg,ginger sheath blight,rice sheath blight,0.6915034055709839,False
+tomato_early_blight_143.jpg,tomato early blight,carrot alternaria leaf blight,0.37543484568595886,False
+banana_anthracnose_Baidu_0021.jpg,banana anthracnose,banana anthracnose,0.9105168581008911,True
+corn_smut_20.jpg,corn smut,corn smut,0.9938488602638245,True
+wheat_head_scab_Bing_0194.jpg,wheat head scab,wheat head scab,0.9297462105751038,True
+tomato_late_blight_69.jpg,tomato late blight,tomato late blight,0.972082257270813,True
+squash_powdery_mildew_google_0099.jpg,squash powdery mildew,zucchini powdery mildew,0.7390788793563843,False
+apple_scab_google_0264.jpg,apple scab,grape leaf spot,0.43786507844924927,False
+wheat_powdery_mildew_Baidu_0316.jpg,wheat powdery mildew,wheat head scab,0.9788781404495239,False
+raspberry_gray_mold_Bing_0192.jpg,raspberry gray mold,raspberry gray mold,0.9930061101913452,True
+lettuce_mosaic_virus_google_0008.jpg,lettuce mosaic virus,lettuce mosaic virus,0.8716150522232056,True
+soybean_brown_spot_Bing_0167.jpg,soybean brown spot,blueberry rust,0.23626337945461273,False
+blueberry_scorch_Bing_0001.jpg,blueberry scorch,carrot alternaria leaf blight,0.19706013798713684,False
+cabbage_downy_mildew_Bing_0004.jpg,cabbage downy mildew,cabbage downy mildew,0.9634478092193604,True
+coffee_berry_blotch_Bing_0118.jpg,coffee berry blotch,coffee berry blotch,0.9981638789176941,True
+cucumber_powdery_mildew_188.jpg,cucumber powdery mildew,apple mosaic virus,0.19939452409744263,False
+zucchini_bacterial_wilt_Google_0077.jpg,zucchini bacterial wilt,cucumber bacterial wilt,0.3956693112850189,False
+apple_scab_google_0298.jpg,apple scab,apple scab,0.6668435335159302,True
+cabbage_black_rot_Bing_0060.jpg,cabbage black rot,cabbage black rot,0.978124737739563,True
+apple_rust_159.jpg,apple rust,peach scab,0.16518333554267883,False
+tobacco_mosaic_virus_62.jpg,tobacco mosaic virus,bean rust,0.33344942331314087,False
+potato_early_blight_google_0048.jpg,potato early blight,tomato early blight,0.9392524361610413,False
+maple_tar_spot_google_0193.jpg,maple tar spot,maple tar spot,0.30116844177246094,True
+wheat_head_scab_Baidu_0369.jpg,wheat head scab,wheat head scab,0.976531982421875,True
+citrus_canker_202.jpg,citrus canker,citrus canker,0.9989890456199646,True
+wheat_stripe_rust_Bing_0300.jpg,wheat stripe rust,wheat powdery mildew,0.4482274353504181,False
+corn_northern_leaf_blight_google_0098.jpg,corn northern leaf blight,wheat powdery mildew,0.2203541398048401,False
+eggplant_phomopsis_fruit_rot_Google_0131.jpg,eggplant phomopsis fruit rot,apple black rot,0.14244204759597778,False
+cucumber_powdery_mildew_google_0003.jpg,cucumber powdery mildew,cucumber powdery mildew,0.8921062350273132,True
+corn_smut_google_0335.jpg,corn smut,corn smut,0.9994722008705139,True
+zucchini_yellow_mosaic_virus_google_0011.jpg,zucchini yellow mosaic virus,zucchini yellow mosaic virus,0.474661260843277,True
+citrus_canker_408.jpg,citrus canker,citrus canker,0.985443115234375,True
+plum_rust_Bing_0005.jpg,plum rust,tomato septoria leaf spot,0.238852858543396,False
+zucchini_powdery_mildew_Google_0086.jpg,zucchini powdery mildew,squash powdery mildew,0.7676699161529541,False
+coffee_berry_blotch_Bing_0094.jpg,coffee berry blotch,coffee berry blotch,0.9614366888999939,True
+corn_smut_google_0066.jpg,corn smut,corn smut,0.9977554678916931,True
+corn_rust_22.jpg,corn rust,corn rust,0.9439084529876709,True
+garlic_leaf_blight_7.jpg,garlic leaf blight,garlic leaf blight,0.33164548873901367,True
+citrus_greening_disease_65.jpg,citrus greening disease,citrus greening disease,0.9998626708984375,True
+ginger_leaf_spot_google_0014.jpg,ginger leaf spot,ginger leaf spot,0.7197514772415161,True
+apple_rust_google_0111.jpg,apple rust,apple rust,0.5619100332260132,True
+soybean_downy_mildew_Google_0019.jpg,soybean downy mildew,soybean downy mildew,0.9891515970230103,True
+banana_anthracnose_Baidu_0054.jpg,banana anthracnose,banana anthracnose,0.992111086845398,True
+strawberry_leaf_scorch_google_0109.jpg,strawberry leaf scorch,strawberry leaf scorch,0.817238450050354,True
+corn_smut_google_0044.jpg,corn smut,corn smut,0.9818428158760071,True
+wheat_stem_rust_Google_0005.jpg,wheat stem rust,wheat stem rust,0.9292998909950256,True
+wheat_stripe_rust_Baidu_0299.jpg,wheat stripe rust,wheat stripe rust,0.3147653043270111,True
+wheat_septoria_blotch_blotch (125).jpg,wheat septoria blotch,wheat stem rust,0.25772762298583984,False
+bell_pepper_bacterial_spot_Bing_0013.jpg,bell pepper bacterial spot,bell pepper bacterial spot,0.22143495082855225,True
+bell_pepper_frogeye_leaf_spot_Bing_0005.jpg,bell pepper frogeye leaf spot,bean rust,0.2768590450286865,False
+cucumber_angular_leaf_spot_240.jpg,cucumber angular leaf spot,cucumber powdery mildew,0.3039844036102295,False
+coffee_black_rot_Google_0015.jpg,coffee black rot,peach leaf curl,0.4688313603401184,False
+corn_rust_google_0007.jpg,corn rust,corn rust,0.5654891729354858,True
+tomato_septoria_leaf_spot_google_0115.jpg,tomato septoria leaf spot,potato early blight,0.46782273054122925,False
+apple_rust_44.jpg,apple rust,grape downy mildew,0.1489923745393753,False
+tomato_bacterial_leaf_spot_30.jpg,tomato bacterial leaf spot,citrus canker,0.6156105995178223,False
+corn_northern_leaf_blight_17.jpg,corn northern leaf blight,corn northern leaf blight,0.9671825170516968,True
+citrus_greening_disease_28.jpg,citrus greening disease,citrus greening disease,0.4574446380138397,True
+tomato_late_blight_google_0007.jpg,tomato late blight,tomato late blight,0.7158767580986023,True
+corn_gray_leaf_spot_google_0021.jpg,corn gray leaf spot,corn gray leaf spot,0.8467854261398315,True
+tomato_bacterial_leaf_spot_22.jpg,tomato bacterial leaf spot,bean mosaic virus,0.22522616386413574,False
+coffee_leaf_rust_google_0023.jpg,coffee leaf rust,coffee leaf rust,0.8249868154525757,True
+grape_black_rot_google_0005.jpg,grape black rot,grape black rot,0.9409872889518738,True
+banana_bunchy_top_Google_0159.jpg,banana bunchy top,banana bunchy top,0.989245593547821,True
+wheat_loose_smut_Google_0061.jpg,wheat loose smut,wheat loose smut,0.9847829937934875,True
+grape_leaf_spot_155.jpg,grape leaf spot,grape leaf spot,0.7043061852455139,True
+grape_downy_mildew_google_0242.jpg,grape downy mildew,grape downy mildew,0.5308022499084473,True
+zucchini_downy_mildew_Google_0294.jpg,zucchini downy mildew,zucchini downy mildew,0.6666833162307739,True
+corn_gray_leaf_spot_google_0195.jpg,corn gray leaf spot,corn rust,0.5397428870201111,False
+tomato_bacterial_leaf_spot_google_0188.jpg,tomato bacterial leaf spot,soybean bacterial blight,0.9662540555000305,False
+wheat_head_scab_Baidu_0231.jpg,wheat head scab,wheat head scab,0.6743426322937012,True
+ginger_sheath_blight_91.jpg,ginger sheath blight,rice sheath blight,0.6524676084518433,False
+wheat_stripe_rust_Baidu_0168.jpg,wheat stripe rust,wheat stripe rust,0.2780681252479553,True
+wheat_head_scab_Baidu_0001.jpg,wheat head scab,wheat head scab,0.7786527276039124,True
+maple_tar_spot_google_0096.jpg,maple tar spot,maple tar spot,0.9831861257553101,True
+soybean_bacterial_blight_Bing_0017.jpg,soybean bacterial blight,bean rust,0.5001890659332275,False
+corn_gray_leaf_spot_google_0010.jpg,corn gray leaf spot,corn gray leaf spot,0.8875488638877869,True
+cherry_powdery_mildew_25.jpg,cherry powdery mildew,cabbage black rot,0.1444036066532135,False
+cabbage_black_rot_Google_0067.jpg,cabbage black rot,cabbage black rot,0.8595841526985168,True
+bell_pepper_blossom_end_rot_Bing_0089.jpg,bell pepper blossom end rot,bell pepper blossom end rot,0.9321276545524597,True
+banana_bunchy_top_Baidu_0046.jpg,banana bunchy top,banana bunchy top,0.5649707913398743,True
+zucchini_powdery_mildew_Google_0090.jpg,zucchini powdery mildew,squash powdery mildew,0.9025172591209412,False
+corn_northern_leaf_blight_22.jpg,corn northern leaf blight,corn northern leaf blight,0.7219945192337036,True
+tomato_bacterial_leaf_spot_79.jpg,tomato bacterial leaf spot,tomato septoria leaf spot,0.39086630940437317,False
+soybean_rust_Bing_0023.jpg,soybean rust,banana panama disease,0.2941131293773651,False
+carrot_cavity_spot_google_0027.jpg,carrot cavity spot,carrot cavity spot,0.9982581734657288,True
+basil_downy_mildew_google_0017.jpg,basil downy mildew,wheat loose smut,0.1551370918750763,False
+banana_black_leaf_streak_Bing_0009.jpg,banana black leaf streak,banana black leaf streak,0.9888851642608643,True
+cherry_powdery_mildew_22.jpg,cherry powdery mildew,tomato late blight,0.5117495059967041,False
+wheat_septoria_blotch_blotch (16).jpg,wheat septoria blotch,wheat septoria blotch,0.9053742289543152,True
+wheat_powdery_mildew_Bing_0258.jpg,wheat powdery mildew,wheat powdery mildew,0.8532727360725403,True
+squash_powdery_mildew_google_0014.jpg,squash powdery mildew,zucchini powdery mildew,0.5923973321914673,False
+garlic_leaf_blight_30.jpg,garlic leaf blight,garlic leaf blight,0.5309231877326965,True
+zucchini_yellow_mosaic_virus_google_0089.jpg,zucchini yellow mosaic virus,zucchini yellow mosaic virus,0.6070220470428467,True
+bell_pepper_bacterial_spot_Bing_0227.jpg,bell pepper bacterial spot,bell pepper bacterial spot,0.9942593574523926,True
+grape_downy_mildew_121.jpg,grape downy mildew,grape downy mildew,0.8579816222190857,True
+citrus_canker_google_0010.jpg,citrus canker,citrus canker,0.9609531760215759,True
+strawberry_anthracnose_google_0041.jpg,strawberry anthracnose,strawberry anthracnose,0.955958902835846,True
+peach_leaf_curl_google_0303.jpg,peach leaf curl,peach leaf curl,0.9566035866737366,True
+banana_bunchy_top_Bing_0122.jpg,banana bunchy top,banana bunchy top,0.9859407544136047,True
+wheat_head_scab_Baidu_0057.jpg,wheat head scab,wheat head scab,0.9857877492904663,True
+coffee_berry_blotch_Bing_0127.jpg,coffee berry blotch,citrus canker,0.598810613155365,False
+banana_black_leaf_streak_banana black sigatoka (15).jpg,banana black leaf streak,banana panama disease,0.8808883428573608,False
+cucumber_angular_leaf_spot_google_0084.jpg,cucumber angular leaf spot,soybean mosaic,0.6463110446929932,False
+cucumber_angular_leaf_spot_149.jpg,cucumber angular leaf spot,cucumber angular leaf spot,0.5453917384147644,True
+tomato_late_blight_google_0240.jpg,tomato late blight,tomato late blight,0.8553062081336975,True
+blueberry_botrytis_blight_Bing_0004.jpg,blueberry botrytis blight,blueberry botrytis blight,0.9715339541435242,True
+garlic_rust_153.jpg,garlic rust,garlic leaf blight,0.6707439422607422,False
+strawberry_leaf_scorch_google_0045.jpg,strawberry leaf scorch,strawberry leaf scorch,0.2557445168495178,True
+soybean_frog_eye_leaf_spot_Google_0051.jpg,soybean frog eye leaf spot,soybean frog eye leaf spot,0.9975800514221191,True
+citrus_canker_441.jpg,citrus canker,citrus canker,0.9987342953681946,True
+coffee_berry_blotch_Bing_0180.jpg,coffee berry blotch,citrus canker,0.5600283145904541,False
+cabbage_downy_mildew_Bing_0000.jpg,cabbage downy mildew,broccoli alternaria leaf spot,0.11594364792108536,False
+potato_late_blight_google_0085.jpg,potato late blight,potato late blight,0.9933021068572998,True
+celery_early_blight_35.jpg,celery early blight,zucchini yellow mosaic virus,0.15751346945762634,False
+blueberry_mummy_berry_Bing_0277.jpg,blueberry mummy berry,eggplant phomopsis fruit rot,0.4881690442562103,False

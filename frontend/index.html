@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AgriSense | Crop Health Intelligence</title>
+
+    <meta name="theme-color" content="#0c251c">
+    <meta name="agrisense-api-base" content="">
+    <meta
+        name="description"
+        content="AgriSense crop disease classification, localization and visual analysis."
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <div class="brand">
+                <div class="brand-mark">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <div class="brand-name">AgriSense</div>
+                    <div class="brand-subtitle">
+                        Crop Health Intelligence
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <span class="exhibition-tag">EXHIBITION DEMO · 2026</span>
+                <button class="status-pill status-checking" id="statusButton" type="button" title="Check AI server connection">
+                    <span class="status-dot"></span>
+                    <span id="statusText">Checking AI server...</span>
+                    <span class="refresh-symbol" aria-hidden="true">↻</span>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== MAIN ==================== -->
+
+    <main class="main-container">
+
+        <!-- HERO -->
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="eyebrow"><span class="eyebrow-dot"></span> AI-POWERED PLANT DIAGNOSTICS</div>
+                <h1>See the signs.<br><span>Protect the harvest.</span></h1>
+                <p>Upload a plant photo, discover what the vision model suggests, and ask our AI Guide to explain the findings in everyday language.</p>
+                <div class="hero-chips"><span>✦ 115 trained classes</span><span>◈ Easy-to-read insights</span><span>◎ Ask the AI Guide</span></div>
+            </div>
+            <div class="hero-aside" aria-label="Three stages of the machine learning pipeline">
+                <div class="hero-aside-top"><span class="radar-symbol">◉</span> BEHIND THE SCAN <span>01 / 03</span></div>
+                <div class="pipeline-steps">
+                    <div class="pipeline-step"><span class="step-indicator">01</span><div><b>IDENTIFY</b><span>ResNet-18 · disease classification</span></div><span class="step-arrow">↗</span></div>
+                    <div class="pipeline-step"><span class="step-indicator">02</span><div><b>LOCATE</b><span>U-Net · affected region mapping</span></div><span class="step-arrow">↗</span></div>
+                    <div class="pipeline-step"><span class="step-indicator">03</span><div><b>EXPLAIN</b><span>Grad-CAM · visual model attention</span></div><span class="step-arrow">↗</span></div>
+                </div>
+                <div class="hero-aside-foot"><span class="signal-bars">▂▄▆</span> FROM PIXELS TO INSIGHT <span>↗</span></div>
+            </div>
+        </section>
+
+        <!-- ==================== UPLOAD PANEL ==================== -->
+
+        <section class="workspace">
+
+            <div class="upload-panel">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">01</span>
+                        <h2>Upload Image</h2>
+                    </div>
+
+                    <span class="format-note">
+                        JPG · JPEG · PNG · MAX 10 MB
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="drop-zone"
+                    id="dropZone"
+                >
+
+                    <input
+                        type="file"
+                        id="imageInput"
+                        accept="image/png,image/jpeg,image/jpg"
+                        hidden
+                    >
+
+                    <div
+                        class="upload-placeholder"
+                        id="uploadPlaceholder"
+                    >
+
+                        <div class="upload-icon">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                            >
+                                <path d="M12 16V4"/>
+                                <path d="M7 9l5-5 5 5"/>
+                                <path d="M4 16v3a1 1 0 001 1h14a1 1 0 001-1v-3"/>
+                            </svg>
+                        </div>
+
+                        <h3>Drop your plant image here</h3>
+
+                        <p>
+                            JPG or PNG up to 10 MB. You can drag and drop or browse.
+                        </p>
+
+                        <button
+                            class="browse-button"
+                            id="browseButton"
+                            type="button"
+                        >
+                            Choose Image
+                        </button>
+
+                    </div>
+
+
+                    <div
+                        class="preview-container hidden"
+                        id="previewContainer"
+                    >
+
+                        <img
+                            id="imagePreview"
+                            src=""
+                            alt="Selected plant image"
+                        >
+
+                        <button
+                            class="remove-image"
+                            id="removeImage"
+                            type="button"
+                            aria-label="Remove image"
+                        >
+                            ×
+                        </button>
+
+                        <div class="preview-info">
+                            <span id="fileName">
+                                Image selected
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="upload-footer">
+
+                    <div class="privacy-note">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                        >
+                            <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+
+                        Your image is sent to the selected AgriSense API for analysis.
+                    </div>
+
+                    <button
+                        class="analyze-button"
+                        id="analyzeButton"
+                        type="button"
+                        disabled
+                    >
+
+                        <span
+                            class="button-spinner hidden"
+                            id="buttonSpinner"
+                        ></span>
+
+                        <span id="analyzeText">
+                            Analyze Image
+                        </span>
+
+                        <svg
+                            class="button-arrow"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path d="M5 12h14"/>
+                            <path d="M13 6l6 6-6 6"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="analysis-progress hidden" id="analysisProgress" role="status" aria-live="polite">
+            <span class="progress-orbit"></span>
+            <div><strong>AI analysis in progress</strong><p id="progressText">Processing your image with the AgriSense models...</p></div>
+        </div>
+
+        <!-- ==================== ERROR ==================== -->
+
+        <div
+            class="error-message hidden"
+            id="errorMessage"
+        >
+            <div class="error-icon">!</div>
+
+            <div>
+                <strong>We couldn't complete the analysis</strong>
+                <p id="errorText">
+                    Something went wrong while processing the image.
+                </p>
+            </div>
+
+            <button
+                id="closeError"
+                type="button"
+            >
+                ×
+            </button>
+        </div>
+
+
+        <!-- ==================== RESULTS ==================== -->
+
+        <section
+            class="results-section hidden"
+            id="resultsSection"
+        >
+
+            <div class="results-header">
+
+                <div>
+                    <span class="section-label">02</span>
+
+                    <h2>
+                        Analysis Results
+                    </h2>
+
+                    <p>
+                        A possible match—not a confirmed diagnosis. Explore the images and ask questions below.
+                    </p>
+                </div>
+
+                <div class="result-status">
+                    <span></span>
+                    Analysis complete
+                </div>
+
+            </div>
+
+
+            <!-- PRIMARY RESULT -->
+
+            <div class="primary-result">
+
+                <div class="disease-result">
+
+                    <div class="result-icon">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                        >
+                            <path d="M12 21c4.5-2.2 7-6 7-11V5l-7-3-7 3v5c0 5 2.5 8.8 7 11z"/>
+                            <path d="M8.5 12.5c2.5.5 4.2 2 5 4"/>
+                            <path d="M8.5 12.5c.5-2.5 2-4 4.5-5"/>
+                        </svg>
+                    </div>
+
+                    <div>
+
+                        <span id="resultLabel">
+                            DETECTED CONDITION
+                        </span>
+
+                        <h3 id="diseaseName">
+                            —
+                        </h3>
+
+                        <p>
+                            Based on the visual characteristics detected
+                            in the uploaded plant image.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="confidence-block">
+
+                    <span class="result-overline">
+                        MODEL CONFIDENCE SCORE
+                    </span>
+
+                    <div class="confidence-value">
+                        <span id="confidenceValue">
+                            —
+                        </span>
+                        <span class="confidence-percent">
+                            %
+                        </span>
+                    </div>
+
+                    <div class="confidence-bar">
+                        <div
+                            id="confidenceFill"
+                            class="confidence-fill"
+                        ></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================== AI CLIENT GUIDE ==================== -->
+            <section class="ai-guide" aria-labelledby="guideTitle">
+                <div class="guide-topline">
+                    <div class="guide-identity">
+                        <div class="guide-avatar" aria-hidden="true">✳</div>
+                        <div>
+                            <span class="guide-eyebrow">YOUR PERSONAL RESULTS EXPLAINER</span>
+                            <h2 id="guideTitle">Meet your AgriSense Guide</h2>
+                            <p>Understand what the model found and ask a question in your own words.</p>
+                        </div>
+                    </div>
+                    <div class="guide-mode-info"><span class="guide-mode" id="guideModeBadge">INSTANT EXPLANATION</span><span class="guide-service-note" id="guideServiceNote" role="status"></span></div>
+                </div>
+
+                <div class="guide-summary" aria-live="polite">
+                    <div class="guide-summary-mark" aria-hidden="true">✦</div>
+                    <div>
+                        <span class="guide-eyebrow">IN SIMPLE WORDS</span>
+                        <h3 id="guideHeadline">Here is what your scan suggests</h3>
+                        <p id="guideSummary">An explanation of your result will appear here.</p>
+                    </div>
+                </div>
+                <div class="guide-facts">
+                    <div><span class="guide-fact-icon" aria-hidden="true">◎</span><div><strong>Prediction, not proof</strong><p>The name is the closest label in the trained model, not a lab test.</p></div></div>
+                    <div><span class="guide-fact-icon" aria-hidden="true">◌</span><div><strong>Color overlays are clues</strong><p>Red suggests a region; warm colors show what influenced the prediction.</p></div></div>
+                    <div><span class="guide-fact-icon" aria-hidden="true">✓</span><div><strong>Check before treating</strong><p>Confirm the symptoms on the plant or with an agricultural expert.</p></div></div>
+                </div>
+
+                <div class="guide-chat">
+                    <div class="guide-chat-heading"><div><span class="guide-eyebrow">CURIOUS ABOUT YOUR RESULT?</span><h3>Ask AgriSense about your scan</h3></div><span class="guide-online-dot" aria-hidden="true"></span></div>
+                    <div class="guide-questions" id="guideQuestions" aria-label="Suggested questions">
+                        <button type="button" class="guide-chip" data-guide-question="How confident is this prediction?">How sure is it?</button>
+                        <button type="button" class="guide-chip" data-guide-question="What do the red and orange highlights mean?">What do the colors mean?</button>
+                        <button type="button" class="guide-chip" data-guide-question="What should I do next?">What should I do next?</button>
+                        <button type="button" class="guide-chip" data-guide-question="Can you tell how serious this is?">Is it serious?</button>
+                    </div>
+                    <div class="guide-messages" id="guideMessages" role="log" aria-live="polite" aria-label="AgriSense questions and answers">
+                        <p class="guide-chat-empty" id="guideEmpty">Choose a question above, or type your own. Powered by Gemini when configured.</p>
+                    </div>
+                    <form class="guide-form" id="guideForm">
+                        <label for="guideInput" class="visually-hidden">Your question about the result</label>
+                        <input id="guideInput" type="text" maxlength="400" autocomplete="off" placeholder="e.g. What is the model trying to tell me?" required>
+                        <button type="submit" id="guideSend">Ask Guide <span aria-hidden="true">↗</span></button>
+                    </form>
+                    <p class="guide-disclaimer" id="guideDisclaimer">Advice is educational, not a verified diagnosis. Only the prediction label, scores and your question are used for AI explanations; the photo is not sent to the language model.</p>
+                </div>
+            </section>
+
+            <!-- METRICS -->
+
+            <div class="metrics-grid">
+
+                <div class="metric-card">
+
+                    <span class="metric-label">
+                        MODEL CLASS ID
+                    </span>
+
+                    <strong id="classIndex">
+                        —
+                    </strong>
+
+                    <span class="metric-description">
+                        Label in the trained classifier
+                    </span>
+
+                </div>
+
+
+                <div class="metric-card">
+
+                    <span class="metric-label">
+                        EST. HIGHLIGHTED IMAGE AREA
+                    </span>
+
+                    <strong id="maskCoverage">
+                        —
+                    </strong>
+
+                    <span class="metric-description">
+Image area selected by the model, not disease severity
+                    </span>
+
+                </div>
+
+
+                <div class="metric-card">
+
+                    <span class="metric-label">
+                        IMAGE SIZE
+                    </span>
+
+                    <strong id="imageDimensions">
+                        —
+                    </strong>
+
+                    <span class="metric-description">
+                        Original uploaded image
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================== INTERACTIVE COMPARISON ==================== -->
+            <section class="compare-section" aria-labelledby="compareTitle">
+                <div class="compare-copy">
+                    <span class="section-kicker">EXPLORE THE EVIDENCE</span>
+                    <h2 id="compareTitle">See where the<br><em>model looks.</em></h2>
+                    <p>Switch between the predicted affected area and the model's attention map. Adjust the overlay to reveal the original photo beneath.</p>
+                    <div class="compare-controls" role="group" aria-label="Select visualization type">
+                        <button type="button" class="compare-choice active" id="showMask" aria-pressed="true">Estimated region</button>
+                        <button type="button" class="compare-choice" id="showCam" aria-pressed="false">AI attention</button>
+                    </div>
+                    <label class="opacity-label" for="overlayOpacity">Overlay intensity <strong id="opacityValue">65%</strong></label>
+                    <input type="range" id="overlayOpacity" min="0" max="100" value="65" aria-label="Overlay intensity">
+                    <p class="compare-caveat">Red marks a <strong>tentative segmentation estimate</strong>, not verified disease pixels. It may highlight background or miss visible damage, especially in unfamiliar images. AI attention is a different explanation and does not verify disease boundaries.</p>
+                </div>
+                <div class="compare-visual"><canvas id="compareCanvas" width="448" height="448" aria-label="Original plant image combined with the selected model map" role="img"></canvas><div class="compare-legend"><span><i class="legend-dot legend-photo"></i> IMAGE</span><span id="overlayLegend"><i class="legend-dot legend-mask"></i> PREDICTED REGION</span></div></div>
+            </section>
+
+            <!-- ==================== VISUAL ANALYSIS ==================== -->
+
+            <div class="visual-analysis">
+
+                <div class="section-heading visual-heading">
+
+                    <div>
+                        <span class="section-label">03</span>
+                        <h2>Visual Analysis</h2>
+                    </div>
+
+                    <span class="visual-note">
+                        224 × 224 MODEL SPACE
+                    </span>
+
+                </div>
+
+
+                <div class="visual-grid">
+
+                    <!-- ORIGINAL -->
+
+                    <div class="visual-card">
+
+                        <div class="visual-card-header">
+
+                            <div>
+                                <span class="visual-index">A</span>
+                                <h3>Original Image</h3>
+                            </div>
+
+                            <span class="visual-tag">
+                                INPUT
+                            </span>
+
+                        </div>
+
+                        <div class="visual-image-container">
+                            <img
+                                id="originalResultImage"
+                                src=""
+                                alt="Original plant image"
+                            >
+                        </div>
+
+                        <p class="visual-description">
+                            Image submitted to the AgriSense analysis pipeline.
+                        </p>
+
+                    </div>
+
+
+                    <!-- SEGMENTATION -->
+
+                    <div class="visual-card">
+
+                        <div class="visual-card-header">
+
+                            <div>
+                                <span class="visual-index">B</span>
+                                <h3>Disease Region</h3>
+                            </div>
+
+                            <span class="visual-tag">
+                                LOCALIZATION
+                            </span>
+
+                        </div>
+
+                        <div class="visual-image-container dark-visual">
+                            <img
+                                id="segmentationImage"
+                                src=""
+                                alt="Predicted disease region"
+                            >
+                        </div>
+
+                        <p class="visual-description">
+                            Predicted regions associated with the detected
+                            plant condition.
+                        </p>
+
+                    </div>
+
+
+                    <!-- GRAD-CAM -->
+
+                    <div class="visual-card">
+
+                        <div class="visual-card-header">
+
+                            <div>
+                                <span class="visual-index">C</span>
+                                <h3>Model Attention</h3>
+                            </div>
+
+                            <span class="visual-tag">
+                                EXPLAINABILITY
+                            </span>
+
+                        </div>
+
+                        <div class="visual-image-container dark-visual">
+                            <img
+                                id="gradcamImage"
+                                src=""
+                                alt="Grad-CAM visualization"
+                            >
+                        </div>
+
+                        <p class="visual-description">
+                            Regions that contributed to the classifier's
+                            predicted disease class.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================== INTERPRETATION ==================== -->
+
+            <div class="interpretation-card">
+
+                <div class="interpretation-icon">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                    >
+                        <path d="M12 3a7 7 0 00-4 12.7V19h8v-3.3A7 7 0 0012 3z"/>
+                        <path d="M9 22h6"/>
+                        <path d="M9 19h6"/>
+                    </svg>
+                </div>
+
+                <div>
+
+                    <span class="result-overline">
+                        HOW TO READ THIS RESULT
+                    </span>
+
+                    <p>
+                        The disease prediction identifies the most likely
+                        class according to the trained classifier.
+                        The localization map highlights predicted affected
+                        regions, while Grad-CAM shows areas that influenced
+                        the classification decision.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================== NEW ANALYSIS ==================== -->
+
+            <div class="new-analysis-container">
+                <button class="secondary-button print-button" id="printReportButton" type="button">↗ Print result</button>
+                <button
+                    class="secondary-button"
+                    id="newAnalysisButton"
+                    type="button"
+                >
+                    Analyze Another Image
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div>
+                <strong>AgriSense</strong>
+                <span>
+                    Crop Health Intelligence Platform
+                </span>
+            </div>
+
+            <div class="footer-right">
+                <span>Model-assisted visual analysis</span>
+                <span>·</span>
+                <span>v1.0</span>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
