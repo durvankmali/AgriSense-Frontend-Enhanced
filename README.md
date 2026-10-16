@@ -19,11 +19,11 @@ https://github.com/durvankmali/AgriSense-Frontend-Enhanced/blob/main/Demo/Agrise
 ## Application Screenshots
 
 ### Application Homepage 
-![AgriSense Homepage](Demo/images/homepage.png)
+![AgriSense Homepage](Demo/homepage.png)
 
 
 ## Disease Prediction | Grad-CAM | Disease Segmentation |   Visualization
-![Disease Prediction](Demo/images/disease_prediction.png)
+![Disease Prediction](Demo/disease_prediction.png)
 
 
 ### Problem
