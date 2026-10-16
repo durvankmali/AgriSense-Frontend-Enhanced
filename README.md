@@ -14,7 +14,7 @@ segmentation, and explainability visualizations.
 
 ### Full Application Walkthrough
 
-https://github.com/durvankmali/AgriSense-Frontend-Enhanced/blob/main/Demo/Agrisense_Demo_Video.mp4
+https://github.com/user-attachments/assets/3310e523-1968-40af-9f4c-0245d6bf4d73
 
 ## Application Screenshots
 
